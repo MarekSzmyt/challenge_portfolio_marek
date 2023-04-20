@@ -43,10 +43,11 @@ Web app for providing a simple documentation about soccer players performance.
 ### User Experience
 
 #### login:
-- I would ignore white spaces in the e-mail in the beggining and at the end when validating the login.
+- I would ignore white spaces in the beggining and at the end when validating the e-mail
 #### general:
-- adding a plaer should be available at the players listing
+- adding a player should be available at the players listing
 - incosistent CTA
+- dropdown or toggle iwth all visible states for the language change, current solution is confusing and incosistent with login page
 #### adding a player:
 - asterix is not explained anywhere 
 
@@ -62,6 +63,11 @@ browser/device:
 [screenshot](https://drive.google.com/file/d/1IzgpUwrBtnaB2PrmrjlOMdNfnviukMO8/view?usp=share_link)
 - on mobile 2nd link does not work
 [video](https://drive.google.com/file/d/1FTmVPSFOrutoswQQB3rpbxnGTKUArZa6/view?usp=share_link)
+```
+turn null != (a = b({}, n)).start && null != a.limit && (console.warn("Params `start` and `limit` are deprecated. Use `_start` and `_limit`"),
+                            a._start = "".concat(n.start * n.limit),
+                            a._limit = "".concat(n.limit)),
+```
 - no field validation when adding a player
 - this div is redundant: `div.MuiPaper-root.MuiCard-root.MuiPaper-elevation1.MuiPaper-rounded`
 [screenshot](https://drive.google.com/file/d/1XXIQ4lls4ANVSmY77p10eOPnWVpo-xtU/view?usp=share_link)
