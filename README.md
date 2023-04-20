@@ -65,5 +65,5 @@ macOS Ventura 13.3.1
 - on mobile 2nd link does not work
 [link](https://drive.google.com/file/d/1FTmVPSFOrutoswQQB3rpbxnGTKUArZa6/view?usp=share_link)
 - no field validation when adding a player
-- this div is redundant: div.MuiPaper-root.MuiCard-root.MuiPaper-elevation1.MuiPaper-rounded
+- this div is redundant: `div.MuiPaper-root.MuiCard-root.MuiPaper-elevation1.MuiPaper-rounded`
 [link](https://drive.google.com/file/d/1XXIQ4lls4ANVSmY77p10eOPnWVpo-xtU/view?usp=share_link)
