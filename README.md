@@ -13,6 +13,7 @@ Also, testings sounds like a lot of fun and combines it with my goal of making p
 
 ### The App
 Web app for providing a simple documentation about soccer players performance.
+
 ### Functionalities
 - Login
 - Language change (PL/EN)
@@ -38,7 +39,9 @@ Web app for providing a simple documentation about soccer players performance.
 - Very text heavy makes it hard to comprehend.
 - Raw and cold does not make it fun to use.
 - A lot of layout missalignements and visual incosistencies makes me feel it's an amateur website.
+
 ### User Experience
+
 #### login:
 - I would ignore white spaces in the e-mail in the beggining and at the end when validating the login.
 #### general:
@@ -55,3 +58,5 @@ Web app for providing a simple documentation about soccer players performance.
 - on mobile 2nd link does not work
 [link](https://drive.google.com/file/d/1FTmVPSFOrutoswQQB3rpbxnGTKUArZa6/view?usp=share_link)
 - no field validation when adding a player
+- this div is redundant: div.MuiPaper-root.MuiCard-root.MuiPaper-elevation1.MuiPaper-rounded
+[link](https://drive.google.com/file/d/1XXIQ4lls4ANVSmY77p10eOPnWVpo-xtU/view?usp=share_link)
