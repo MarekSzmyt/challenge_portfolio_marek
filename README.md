@@ -48,22 +48,23 @@ Web app for providing a simple documentation about soccer players performance.
 - adding a plaer should be available at the players listing
 - incosistent CTA
 #### adding a player:
-- asterix is not explained anywhere
+- asterix is not explained anywhere 
 
 ### Defects/Bugs
 
-```
 browser/device:
-Chrome Version 112.0.5615.49 (Official Build) (arm64)
-macOS Ventura 13.3.1
-```
+>Chrome Version 112.0.5615.49 (Official Build) (arm64) | macOS Ventura 13.3.1
+
 
 - item height does not change agter the input validation and the content is clipped
-[link](https://drive.google.com/file/d/1E5N0RRIn5uAk1FMyEWeSKltIfdtt2rC_/view?usp=share_link)
+[screenshot](https://drive.google.com/file/d/1E5N0RRIn5uAk1FMyEWeSKltIfdtt2rC_/view?usp=share_link)
 - CTA does not translate when switching languages
-[link](https://drive.google.com/file/d/1IzgpUwrBtnaB2PrmrjlOMdNfnviukMO8/view?usp=share_link)
+[screenshot](https://drive.google.com/file/d/1IzgpUwrBtnaB2PrmrjlOMdNfnviukMO8/view?usp=share_link)
 - on mobile 2nd link does not work
-[link](https://drive.google.com/file/d/1FTmVPSFOrutoswQQB3rpbxnGTKUArZa6/view?usp=share_link)
+[video](https://drive.google.com/file/d/1FTmVPSFOrutoswQQB3rpbxnGTKUArZa6/view?usp=share_link)
 - no field validation when adding a player
 - this div is redundant: `div.MuiPaper-root.MuiCard-root.MuiPaper-elevation1.MuiPaper-rounded`
-[link](https://drive.google.com/file/d/1XXIQ4lls4ANVSmY77p10eOPnWVpo-xtU/view?usp=share_link)
+[screenshot](https://drive.google.com/file/d/1XXIQ4lls4ANVSmY77p10eOPnWVpo-xtU/view?usp=share_link)
+- favicon is not loaded: `GET https://scouts-test.futbolkolektyw.pl/pl/favicon.ico 404`
+[HAR file](https://drive.google.com/file/d/1xFUkrpT1YLbB3PB-doktXNYxFbwMGnNz/view?usp=share_link)
+- "CLEAR" btn doesn't work when editting existing player
