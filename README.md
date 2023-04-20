@@ -51,6 +51,13 @@ Web app for providing a simple documentation about soccer players performance.
 - asterix is not explained anywhere
 
 ### Defects/Bugs
+
+```
+browser/device:
+Chrome Version 112.0.5615.49 (Official Build) (arm64)
+macOS Ventura 13.3.1
+```
+
 - item height does not change agter the input validation and the content is clipped
 [link](https://drive.google.com/file/d/1E5N0RRIn5uAk1FMyEWeSKltIfdtt2rC_/view?usp=share_link)
 - CTA does not translate when switching languages
