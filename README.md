@@ -55,11 +55,13 @@ Web app for providing a simple documentation about soccer players performance.
 - headline here could be usefull (i.e. "Social Media Links") to separate this section from the player data →
 [link](https://scouts-test.futbolkolektyw.pl/en/players/63c6fb6e4cff3d0bdc152d41/edit) |
 [screenshot](https://drive.google.com/file/d/1FckhAotyJP56lZiK69UO4X7sMD6mcpDf/view?usp=share_link)
-- this div is redundant: `div.MuiPaper-root.MuiCard-root.MuiPaper-elevation1.MuiPaper-rounded` →
+- this div feels redundant here: `div.MuiPaper-root.MuiCard-root.MuiPaper-elevation1.MuiPaper-rounded` →
 [screenshot](https://drive.google.com/file/d/1XXIQ4lls4ANVSmY77p10eOPnWVpo-xtU/view?usp=share_link)
 - especially on mobile the tables for Reports and Matches should fill the screen width and not be cutted at the conainer →
 [link](https://scouts-test.futbolkolektyw.pl/en/players/6026b48956c79737b3f3c624/reports) |
 [screenshot](https://drive.google.com/file/d/1FV01fiXSejGZ0PBRHUTmMhkKdtMy7otz/view?usp=share_link)
+- contrast for this element is very low `div.ReportFooterStyled-x8k29a-0.kqrEhp` →
+[screenshot](https://drive.google.com/file/d/1LU-vW2f4ys4GRzIGpouwCGbZjQzJdxRW/view?usp=share_link)
 
 #### adding a player:
 - asterisk is not explained anywhere
