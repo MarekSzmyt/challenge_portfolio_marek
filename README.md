@@ -118,6 +118,17 @@ turn null != (a = b({}, n)).start && null != a.limit && (console.warn("Params `s
 [video](https://drive.google.com/file/d/1oAjPBv0acvlNnHLq2fl8zV-OGw00wJDK/view?usp=share_link)
 - validation needed for the age ang height inputs in player page, negative values can be used 
 [screenshot](https://drive.google.com/file/d/180gnWX71p1okxy3-Am34YHMGbvjgQkLL/view?usp=share_link)
+- `Incompatible href and as values` when clicking "back to report" btn on the "unsaved report" card
+```
+42032078bbadf019700308e0ffe503d5056449.e5058d62b3c6fbb81936.js:1 Uncaught (in promise) Error: The provided `as` value (/en/players/630a542662fd50f9620fda33/reports/start) is incompatible with the `href` value (/players/[id]/reports/start). Read more: https://err.sh/vercel/next.js/incompatible-href-as
+    at t.<anonymous> (f542032078bbadf019700308e0ffe503d5056449.e5058d62b3c6fbb81936.js:1:19629)
+    at c (f542032078bbadf019700308e0ffe503d5056449.e5058d62b3c6fbb81936.js:1:2099)
+    at Generator._invoke (f542032078bbadf019700308e0ffe503d5056449.e5058d62b3c6fbb81936.js:1:1852)
+    at Generator.next (f542032078bbadf019700308e0ffe503d5056449.e5058d62b3c6fbb81936.js:1:2458)
+    at r (f542032078bbadf019700308e0ffe503d5056449.e5058d62b3c6fbb81936.js:1:7451)
+    at u (f542032078bbadf019700308e0ffe503d5056449.e5058d62b3c6fbb81936.js:1:7662)
+(
+```
 
 #### translation:
 - "Dev team contact" btn missing polish transaltion
@@ -134,5 +145,5 @@ turn null != (a = b({}, n)).start && null != a.limit && (console.warn("Params `s
 [lighthouse report](https://drive.google.com/file/d/1GC6bOElM5Kg3QiZXPiNFKz1Pibr2YjFt/view?usp=share_link)
 
 ## Subtask 5
-Jira Project was created
+Jira Project was created →
 [backlog](https://markowe.atlassian.net/jira/software/projects/CPP/boards/1/backlog)
