@@ -47,25 +47,25 @@ Web app for providing a simple documentation about soccer players performance.
 - adding a player should be available at the players listing
 - adding some element (i.e bar) to the selected state on the dashboard, with only color change it may not be accessible
 - show password
-- incosistent CTA
+- incosistent CTA,. both wording and styling
 - dropdown or toggle with all visible states for the language change, current solution is confusing and incosistent with login page
-- some limit to the displayed name in tables
-[link](https://scouts-test.futbolkolektyw.pl/en/players?lng=en&subpath=en&start=1&_sort=club%3Adesc)
+- some limit to the displayed name in tables →
+[link](https://scouts-test.futbolkolektyw.pl/en/players?lng=en&subpath=en&start=1&_sort=club%3Adesc) |
 [video](https://drive.google.com/file/d/1AHMjEmylTloeWgw8l6qhxbqOsHPmIT-W/view?usp=share_link)
-- headline here could be usefull (i.e. "Social Media Links") to separate this section from the player data 
-[link](https://scouts-test.futbolkolektyw.pl/en/players/63c6fb6e4cff3d0bdc152d41/edit)
+- headline here could be usefull (i.e. "Social Media Links") to separate this section from the player data →
+[link](https://scouts-test.futbolkolektyw.pl/en/players/63c6fb6e4cff3d0bdc152d41/edit) |
 [screenshot](https://drive.google.com/file/d/1FckhAotyJP56lZiK69UO4X7sMD6mcpDf/view?usp=share_link)
-- this div is redundant: `div.MuiPaper-root.MuiCard-root.MuiPaper-elevation1.MuiPaper-rounded`
+- this div is redundant: `div.MuiPaper-root.MuiCard-root.MuiPaper-elevation1.MuiPaper-rounded` →
 [screenshot](https://drive.google.com/file/d/1XXIQ4lls4ANVSmY77p10eOPnWVpo-xtU/view?usp=share_link)
-- especially on mobile the tables for Reports and Matches should fill the screen width and not be cutted at the conainer
-[link](https://scouts-test.futbolkolektyw.pl/en/players/6026b48956c79737b3f3c624/reports)
+- especially on mobile the tables for Reports and Matches should fill the screen width and not be cutted at the conainer →
+[link](https://scouts-test.futbolkolektyw.pl/en/players/6026b48956c79737b3f3c624/reports) |
 [screenshot](https://drive.google.com/file/d/1FV01fiXSejGZ0PBRHUTmMhkKdtMy7otz/view?usp=share_link)
 
 #### adding a player:
 - asterisk is not explained anywhere
-- would not allow adding same language twice
+- would not allow adding same language twice →
 [screenshot](https://drive.google.com/file/d/1WYw1QLn7aPEv4H1yl9CHFANBc_Kz5sGw/view?usp=share_link)
-- the tooltip feels disconnected from an input at sumbit validation
+- the tooltip feels disconnected from an input at sumbit validation →
 [screenshot](https://drive.google.com/file/d/16Qke-lDPNDj33EmGbEtycbxobrGTYxN9/view?usp=share_link)
 - much more field validation in general, it's not only makes the UX smoother, and more intuitive but also would reduce potential incosistencies when it comes to providing data and iprove data quality in general (i.e. consisntent phone numbers formating)
 - those fields should have pre-defined values similar to the "District" input to allow translation and improve data quality:
@@ -99,9 +99,9 @@ browser/device:
     }
 }
 ```
-- item height does not change agter the input validation and the content is clipped
+- item height does not change agter the input validation and the content is clipped →
 [screenshot](https://drive.google.com/file/d/1E5N0RRIn5uAk1FMyEWeSKltIfdtt2rC_/view?usp=share_link)
-- on mobile 2nd link does not work
+- on mobile 2nd link takes very long time to work →
 [video](https://drive.google.com/file/d/1FTmVPSFOrutoswQQB3rpbxnGTKUArZa6/view?usp=share_link)
 ```
 turn null != (a = b({}, n)).start && null != a.limit && (console.warn("Params `start` and `limit` are deprecated. Use `_start` and `_limit`"),
@@ -109,14 +109,14 @@ turn null != (a = b({}, n)).start && null != a.limit && (console.warn("Params `s
                             a._limit = "".concat(n.limit)),
 ```
 - no field validation when adding a player
-- favicon is not loaded: `GET https://scouts-test.futbolkolektyw.pl/pl/favicon.ico 404`
+- favicon is not loaded: `GET https://scouts-test.futbolkolektyw.pl/pl/favicon.ico 404` →
 [HAR file](https://drive.google.com/file/d/1xFUkrpT1YLbB3PB-doktXNYxFbwMGnNz/view?usp=share_link)
 - "Clear" btn doesn't work when editting existing player
-- table download does not translate the information from "Matches" and "Reports"
+- table download does not translate the information from "Matches" and "Reports" →
 [CSV file](https://drive.google.com/file/d/1RYMB7UaoNpeNDsOLw9PKNF6eRZ_c-2eW/view?usp=share_link)
-- especially on mobile the report page looks just broken
+- especially on mobile the report page looks just broken →
 [video](https://drive.google.com/file/d/1oAjPBv0acvlNnHLq2fl8zV-OGw00wJDK/view?usp=share_link)
-- validation needed for the age ang height inputs in player page, negative values can be used 
+- validation needed for the age ang height inputs in player page, negative values can be used  →
 [screenshot](https://drive.google.com/file/d/180gnWX71p1okxy3-Am34YHMGbvjgQkLL/view?usp=share_link)
 - `Incompatible href and as values` when clicking "back to report" btn on the "unsaved report" card
 ```
@@ -131,17 +131,19 @@ turn null != (a = b({}, n)).start && null != a.limit && (console.warn("Params `s
 ```
 
 #### translation:
-- "Dev team contact" btn missing polish transaltion
+- "Dev team contact" btn missing polish transaltion →
 [screenshot](https://drive.google.com/file/d/1IzgpUwrBtnaB2PrmrjlOMdNfnviukMO8/view?usp=share_link)
-- "Submit" and "Clear" btn missing polish transaltion
+- "Submit" and "Clear" btn missing polish transaltion →
 [screenshot](https://drive.google.com/file/d/1OrRa5vpmzpGa2msbT7d_2T5F6YnN1Iow/view?usp=share_link)
-- validation hint missing polish transaltion
+- validation hint missing polish transaltion →
 [screenshot](https://drive.google.com/file/d/1CMmciyi9OAT22FrXr-Utdmh8IKEufyD8/view?usp=share_link)
+- hints on hover for icons in the "Players" tab missing polish transaltion →
+[screenshot](https://drive.google.com/file/d/1SjsT4ITSQQ93NH92b277vhZO_F-O8OSV/view?usp=sharing)
 
 #### performance:
-- long lodaing time for Matches page due to excessive DOM size
+- long lodaing time for Matches page due to excessive DOM size →
 [lighthouse report](https://drive.google.com/file/d/1jLWz2neOo_rrcwIFpLVBUfkMr2bnWnfn/view?usp=share_link)
-- long lodaing time for Reports page due to excessive DOM size
+- long lodaing time for Reports page due to excessive DOM size →
 [lighthouse report](https://drive.google.com/file/d/1GC6bOElM5Kg3QiZXPiNFKz1Pibr2YjFt/view?usp=share_link)
 
 ## Subtask 5
