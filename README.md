@@ -57,9 +57,16 @@ Web app for providing a simple documentation about soccer players performance.
 [screenshot](https://drive.google.com/file/d/1FckhAotyJP56lZiK69UO4X7sMD6mcpDf/view?usp=share_link)
 - this div is redundant: `div.MuiPaper-root.MuiCard-root.MuiPaper-elevation1.MuiPaper-rounded`
 [screenshot](https://drive.google.com/file/d/1XXIQ4lls4ANVSmY77p10eOPnWVpo-xtU/view?usp=share_link)
+- on mobile the tables for Reports and Matches should fill the screen width and not be cutted at the conainer
+[link](https://scouts-test.futbolkolektyw.pl/en/players/6026b48956c79737b3f3c624/reports)
+[screenshot](https://drive.google.com/file/d/1FV01fiXSejGZ0PBRHUTmMhkKdtMy7otz/view?usp=share_link)
 
 #### adding a player:
-- asterisk is not explained anywhere 
+- asterisk is not explained anywhere
+- would not allow adding same language twice
+[screenshot](https://drive.google.com/file/d/1WYw1QLn7aPEv4H1yl9CHFANBc_Kz5sGw/view?usp=share_link)
+- the tooltip feels disconnected from an input at sumbit validation
+[screenshot](https://drive.google.com/file/d/16Qke-lDPNDj33EmGbEtycbxobrGTYxN9/view?usp=share_link)
 
 ### Defects/Bugs
 
@@ -79,10 +86,14 @@ turn null != (a = b({}, n)).start && null != a.limit && (console.warn("Params `s
 - no field validation when adding a player
 - favicon is not loaded: `GET https://scouts-test.futbolkolektyw.pl/pl/favicon.ico 404`
 [HAR file](https://drive.google.com/file/d/1xFUkrpT1YLbB3PB-doktXNYxFbwMGnNz/view?usp=share_link)
-- "CLEAR" btn doesn't work when editting existing player
+- "Clear" btn doesn't work when editting existing player
 - table download does not translate the information from "Matches" and "Reports"
 [CSV file](https://drive.google.com/file/d/1RYMB7UaoNpeNDsOLw9PKNF6eRZ_c-2eW/view?usp=share_link)
 
 #### translation:
-- "Dev team contact" btn does not translate when switching languages
+- "Dev team contact" btn missing polish transaltion
 [screenshot](https://drive.google.com/file/d/1IzgpUwrBtnaB2PrmrjlOMdNfnviukMO8/view?usp=share_link)
+- "Submit" and "Clear" btn missing polish transaltion
+[screenshot](https://drive.google.com/file/d/1OrRa5vpmzpGa2msbT7d_2T5F6YnN1Iow/view?usp=share_link)
+- validation hint missing polish transaltion
+[screenshot](https://drive.google.com/file/d/1CMmciyi9OAT22FrXr-Utdmh8IKEufyD8/view?usp=share_link)
