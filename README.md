@@ -132,3 +132,7 @@ turn null != (a = b({}, n)).start && null != a.limit && (console.warn("Params `s
 [lighthouse report](https://drive.google.com/file/d/1jLWz2neOo_rrcwIFpLVBUfkMr2bnWnfn/view?usp=share_link)
 - long lodaing time for Reports page due to excessive DOM size
 [lighthouse report](https://drive.google.com/file/d/1GC6bOElM5Kg3QiZXPiNFKz1Pibr2YjFt/view?usp=share_link)
+
+## Subtask 5
+Jira Project was created
+[backlog](https://markowe.atlassian.net/jira/software/projects/CPP/boards/1/backlog)
