@@ -4,9 +4,9 @@
 ## Subtask 2
 📁 [Repository](https://github.com/MarekSzmyt/challenge_portfolio_marek) was created
 ## Subtask 3
-👋 Hey! My name is Marek. I started this project to learn basics of manual testing, and hopufully get the deeper understanding of the development process. I'm already learned a little bit of frontend and I work daily as an UX designer.
+👋 Hey! My name is Marek. I started this project to learn basics of manual testing, and hopufully get the deeper understanding of the developement process. I'm already learned a quite a bit of frontend (react ❤️) and I work daily as an UX designer.
 
-Also, testings sounds like a lot of fun and combines it with my goal of making products better for the Users.
+Also, testings sounds like a lot of fun - let's try to be a Sherlock Holmes! And as a designer I think it would help me to make more User centered products.
 
 *Marek*
 ## Subtask 4 [WIP]
@@ -43,24 +43,32 @@ Web app for providing a simple documentation about soccer players performance.
 ### User Experience
 
 #### login:
-- I would ignore white spaces in the beggining and at the end when validating the e-mail
+- I would ignore white spaces in the beggining, and at the end when validating the e-mail
+
 #### general:
 - adding a player should be available at the players listing
 - incosistent CTA
-- dropdown or toggle iwth all visible states for the language change, current solution is confusing and incosistent with login page
+- dropdown or toggle with all visible states for the language change, current solution is confusing and incosistent with login page
+- some limit to the displayed name in tables
+[link](https://scouts-test.futbolkolektyw.pl/en/players?lng=en&subpath=en&start=1&_sort=club%3Adesc)
+[video](https://drive.google.com/file/d/1AHMjEmylTloeWgw8l6qhxbqOsHPmIT-W/view?usp=share_link)
+- headline here could be usefull (i.e. "Social Media Links") to separate this section from the player data 
+[link](https://scouts-test.futbolkolektyw.pl/en/players/63c6fb6e4cff3d0bdc152d41/edit)
+[screenshot](https://drive.google.com/file/d/1FckhAotyJP56lZiK69UO4X7sMD6mcpDf/view?usp=share_link)
+- this div is redundant: `div.MuiPaper-root.MuiCard-root.MuiPaper-elevation1.MuiPaper-rounded`
+[screenshot](https://drive.google.com/file/d/1XXIQ4lls4ANVSmY77p10eOPnWVpo-xtU/view?usp=share_link)
+
 #### adding a player:
-- asterix is not explained anywhere 
+- asterisk is not explained anywhere 
 
 ### Defects/Bugs
 
 browser/device:
 >Chrome Version 112.0.5615.49 (Official Build) (arm64) | macOS Ventura 13.3.1
 
-
+#### general:
 - item height does not change agter the input validation and the content is clipped
 [screenshot](https://drive.google.com/file/d/1E5N0RRIn5uAk1FMyEWeSKltIfdtt2rC_/view?usp=share_link)
-- CTA does not translate when switching languages
-[screenshot](https://drive.google.com/file/d/1IzgpUwrBtnaB2PrmrjlOMdNfnviukMO8/view?usp=share_link)
 - on mobile 2nd link does not work
 [video](https://drive.google.com/file/d/1FTmVPSFOrutoswQQB3rpbxnGTKUArZa6/view?usp=share_link)
 ```
@@ -69,8 +77,12 @@ turn null != (a = b({}, n)).start && null != a.limit && (console.warn("Params `s
                             a._limit = "".concat(n.limit)),
 ```
 - no field validation when adding a player
-- this div is redundant: `div.MuiPaper-root.MuiCard-root.MuiPaper-elevation1.MuiPaper-rounded`
-[screenshot](https://drive.google.com/file/d/1XXIQ4lls4ANVSmY77p10eOPnWVpo-xtU/view?usp=share_link)
 - favicon is not loaded: `GET https://scouts-test.futbolkolektyw.pl/pl/favicon.ico 404`
 [HAR file](https://drive.google.com/file/d/1xFUkrpT1YLbB3PB-doktXNYxFbwMGnNz/view?usp=share_link)
 - "CLEAR" btn doesn't work when editting existing player
+- table download does not translate the information from "Matches" and "Reports"
+[CSV file](https://drive.google.com/file/d/1RYMB7UaoNpeNDsOLw9PKNF6eRZ_c-2eW/view?usp=share_link)
+
+#### translation:
+- "Dev team contact" btn does not translate when switching languages
+[screenshot](https://drive.google.com/file/d/1IzgpUwrBtnaB2PrmrjlOMdNfnviukMO8/view?usp=share_link)
