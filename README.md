@@ -40,14 +40,11 @@ Web app for providing a simple documentation about soccer players performance.
 
 ### User Experience
 
-#### login:
-- I would ignore white spaces in the beggining, and at the end when validating the e-mail
-
 #### general:
 - adding a player should be available at the players listing
 - adding some element (i.e bar) to the selected state on the dashboard, with only color change it may not be accessible
 - show password
-- incosistent CTA,. both wording and styling
+- incosistent CTA, both wording and styling
 - dropdown or toggle with all visible states for the language change, current solution is confusing and incosistent with login page
 - some limit to the displayed name in tables →
 [link](https://scouts-test.futbolkolektyw.pl/en/players?lng=en&subpath=en&start=1&_sort=club%3Adesc) |
@@ -62,6 +59,9 @@ Web app for providing a simple documentation about soccer players performance.
 [screenshot](https://drive.google.com/file/d/1FV01fiXSejGZ0PBRHUTmMhkKdtMy7otz/view?usp=share_link)
 - contrast for this element is very low `div.ReportFooterStyled-x8k29a-0.kqrEhp` →
 [screenshot](https://drive.google.com/file/d/1LU-vW2f4ys4GRzIGpouwCGbZjQzJdxRW/view?usp=share_link)
+
+#### login:
+- I would ignore white spaces in the beggining, and at the end when validating the e-mail
 
 #### adding a player:
 - asterisk is not explained anywhere
@@ -101,7 +101,7 @@ browser/device:
     }
 }
 ```
-- item height does not change agter the input validation and the content is clipped →
+- item height does not change after the input validation and the content is clipped →
 [screenshot](https://drive.google.com/file/d/1E5N0RRIn5uAk1FMyEWeSKltIfdtt2rC_/view?usp=share_link)
 - on mobile 2nd link takes very long time to work →
 [video](https://drive.google.com/file/d/1FTmVPSFOrutoswQQB3rpbxnGTKUArZa6/view?usp=share_link)
