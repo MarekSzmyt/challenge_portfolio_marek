@@ -19,11 +19,11 @@ Web app for providing a simple documentation about soccer players performance.
 - Language change (PL/EN)
 - Remind Password
 - Adding a player
-- Editing existing plyer
+- Editing existing player
 - Adding new match
 - Editting existing match
-- Adding raport to the match
-- Editting existing raport
+- Adding report to the match
+- Editting existing report
 - Changing display and filters for listings
 - Export and print options for listings
 
@@ -57,7 +57,7 @@ Web app for providing a simple documentation about soccer players performance.
 [screenshot](https://drive.google.com/file/d/1FckhAotyJP56lZiK69UO4X7sMD6mcpDf/view?usp=share_link)
 - this div is redundant: `div.MuiPaper-root.MuiCard-root.MuiPaper-elevation1.MuiPaper-rounded`
 [screenshot](https://drive.google.com/file/d/1XXIQ4lls4ANVSmY77p10eOPnWVpo-xtU/view?usp=share_link)
-- on mobile the tables for Reports and Matches should fill the screen width and not be cutted at the conainer
+- especially on mobile the tables for Reports and Matches should fill the screen width and not be cutted at the conainer
 [link](https://scouts-test.futbolkolektyw.pl/en/players/6026b48956c79737b3f3c624/reports)
 [screenshot](https://drive.google.com/file/d/1FV01fiXSejGZ0PBRHUTmMhkKdtMy7otz/view?usp=share_link)
 
@@ -89,6 +89,10 @@ turn null != (a = b({}, n)).start && null != a.limit && (console.warn("Params `s
 - "Clear" btn doesn't work when editting existing player
 - table download does not translate the information from "Matches" and "Reports"
 [CSV file](https://drive.google.com/file/d/1RYMB7UaoNpeNDsOLw9PKNF6eRZ_c-2eW/view?usp=share_link)
+- especially on mobile the report page looks just broken
+[video](https://drive.google.com/file/d/1oAjPBv0acvlNnHLq2fl8zV-OGw00wJDK/view?usp=share_link)
+- validation needed for the age ang height inputs in player page, negative values can be used 
+[screenshot](https://drive.google.com/file/d/180gnWX71p1okxy3-Am34YHMGbvjgQkLL/view?usp=share_link)
 
 #### translation:
 - "Dev team contact" btn missing polish transaltion
@@ -97,3 +101,9 @@ turn null != (a = b({}, n)).start && null != a.limit && (console.warn("Params `s
 [screenshot](https://drive.google.com/file/d/1OrRa5vpmzpGa2msbT7d_2T5F6YnN1Iow/view?usp=share_link)
 - validation hint missing polish transaltion
 [screenshot](https://drive.google.com/file/d/1CMmciyi9OAT22FrXr-Utdmh8IKEufyD8/view?usp=share_link)
+
+#### performance:
+- long lodaing time for Matches page due to excessive DOM size
+[lighthouse report](https://drive.google.com/file/d/1jLWz2neOo_rrcwIFpLVBUfkMr2bnWnfn/view?usp=share_link)
+- long lodaing time for Reports page due to excessive DOM size
+[lighthouse report](https://drive.google.com/file/d/1GC6bOElM5Kg3QiZXPiNFKz1Pibr2YjFt/view?usp=share_link)
