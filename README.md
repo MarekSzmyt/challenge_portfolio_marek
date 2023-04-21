@@ -69,7 +69,7 @@ Web app for providing a simple documentation about soccer players performance.
 [screenshot](https://drive.google.com/file/d/1WYw1QLn7aPEv4H1yl9CHFANBc_Kz5sGw/view?usp=share_link)
 - the tooltip feels disconnected from an input at sumbit validation →
 [screenshot](https://drive.google.com/file/d/16Qke-lDPNDj33EmGbEtycbxobrGTYxN9/view?usp=share_link)
-- much more field validation in general, it's not only makes the UX smoother, and more intuitive but also would reduce potential incosistencies when it comes to providing data and iprove data quality in general (i.e. consisntent phone numbers formating)
+- much more field validation in general, it's not only makes the UX smoother, and more intuitive but also would reduce potential incosistencies when it comes to providing data and improve data quality in general (i.e. consisntent phone numbers formating)
 - those fields should have pre-defined values similar to the "District" input to allow translation and improve data quality:
   - Level
   - Main Position
@@ -118,7 +118,7 @@ turn null != (a = b({}, n)).start && null != a.limit && (console.warn("Params `s
 [CSV file](https://drive.google.com/file/d/1RYMB7UaoNpeNDsOLw9PKNF6eRZ_c-2eW/view?usp=share_link)
 - especially on mobile the report page looks just broken →
 [video](https://drive.google.com/file/d/1oAjPBv0acvlNnHLq2fl8zV-OGw00wJDK/view?usp=share_link)
-- validation needed for the age ang height inputs in player page, negative values can be used  →
+- validation needed for the **weight** and **height** inputs in player page, negative values can be used  →
 [screenshot](https://drive.google.com/file/d/180gnWX71p1okxy3-Am34YHMGbvjgQkLL/view?usp=share_link)
 - `Incompatible href and as values` when clicking "back to report" btn on the "unsaved report" card
 ```
