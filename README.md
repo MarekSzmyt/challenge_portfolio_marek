@@ -4,9 +4,9 @@
 ## Subtask 2
 📁 [Repository](https://github.com/MarekSzmyt/challenge_portfolio_marek) was created
 ## Subtask 3
-👋 Hey! My name is Marek. I started this project to learn basics of manual testing, and hopufully get the deeper understanding of the developement process. I'm already learned a quite a bit of frontend (react ❤️) and I work daily as an UX designer.
+👋 Hey! My name is Marek. I started this project to learn basics of manual testing, and hopufully get the deeper understanding of the developement process. I already learned a quite a bit of frontend (react ❤️) and I work daily as an UX designer.
 
-Also, testings sounds like a lot of fun - let's try to be a Sherlock Holmes 🕵️! And as a designer I think it would help me to make more User centered products.
+Testings sounds like a lot of fun - let's try to be the Sherlock Holmes 🕵️! Also, since I'm a designer I think it would help me to make more User centered products.
 
 *Marek*
 ## Subtask 4 [WIP]
