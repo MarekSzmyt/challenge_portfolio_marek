@@ -153,7 +153,7 @@ turn null != (a = b({}, n)).start && null != a.limit && (console.warn("Params `s
 [screenshot](https://drive.google.com/file/d/1OrRa5vpmzpGa2msbT7d_2T5F6YnN1Iow/view?usp=share_link)
 - validation hint missing polish transaltion →
 [screenshot](https://drive.google.com/file/d/1CMmciyi9OAT22FrXr-Utdmh8IKEufyD8/view?usp=share_link)
-- hints on hover for icons in the "Players" tab missing polish transaltion →
+- hints on hover for icons in the **Players** page missing polish transaltion →
 [screenshot](https://drive.google.com/file/d/1SjsT4ITSQQ93NH92b277vhZO_F-O8OSV/view?usp=sharing)
 
 #### performance:
