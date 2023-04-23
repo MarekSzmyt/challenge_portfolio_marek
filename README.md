@@ -12,7 +12,7 @@ Also, testings sounds like a lot of fun - let's try to be a Sherlock Holmes 🕵
 ## Subtask 4 [WIP]
 
 ### The App
-Web app for providing a simple documentation about soccer players performance.
+Web app for providing a simple documentation about soccer players performance. Allows to create player profiles, add mathces their participated in, and gather reports aboutt their performance.
 
 ### Functionalities
 - Login
@@ -32,31 +32,43 @@ Web app for providing a simple documentation about soccer players performance.
 - guest login
 - option to delete content (player, match, report)
 - diplaying yt videos on the website
+- uploading player photos
 
 ### User Interface
+
+>Personally I don't especially like it. It makes the process of adding data very boring, and it's not rewarding at all with all of the overwhelming text.
+
 - Very text heavy makes it hard to comprehend.
 - Raw and cold does not make it fun to use.
-- A lot of layout missalignements and visual incosistencies makes me feel it's an amateur website.
+- A lot of layout missalignements and visual incosistencies makes it sometimes confusing.
 
 ### User Experience
+
+>Overall I had no problems when adding players, althought the initial feeling is a bit overwhelming. The deeper I go (matches → reports) the less understandable the process becomes. Especially reports are confusing for me, the flow is much more different there than the player and match addition.
 
 #### general:
 - adding a player should be available at the players listing
 - adding some element (i.e bar) to the selected state on the dashboard, with only color change it may not be accessible
-- show password
+- show password option
 - incosistent CTA, both wording and styling
 - dropdown or toggle with all visible states for the language change, current solution is confusing and incosistent with login page
 - some limit to the displayed name in tables →
 [link](https://scouts-test.futbolkolektyw.pl/en/players?lng=en&subpath=en&start=1&_sort=club%3Adesc) |
 [video](https://drive.google.com/file/d/1AHMjEmylTloeWgw8l6qhxbqOsHPmIT-W/view?usp=share_link)
-- headline here could be usefull (i.e. "Social Media Links") to separate this section from the player data →
+- headline on **Add player** page could be usefull (i.e. "Social Media Links") to separate sections from each other →
 [link](https://scouts-test.futbolkolektyw.pl/en/players/63c6fb6e4cff3d0bdc152d41/edit) |
 [screenshot](https://drive.google.com/file/d/1FckhAotyJP56lZiK69UO4X7sMD6mcpDf/view?usp=share_link)
 - this div feels redundant here: `div.MuiPaper-root.MuiCard-root.MuiPaper-elevation1.MuiPaper-rounded` →
 [screenshot](https://drive.google.com/file/d/1XXIQ4lls4ANVSmY77p10eOPnWVpo-xtU/view?usp=share_link)
-- especially on mobile the tables for Reports and Matches should fill the screen width and not be cutted at the conainer →
+- especially on mobile the tables for **Reports** and **Matches** should fill the screen width and not be cutted at the conainer →
 [link](https://scouts-test.futbolkolektyw.pl/en/players/6026b48956c79737b3f3c624/reports) |
 [screenshot](https://drive.google.com/file/d/1FV01fiXSejGZ0PBRHUTmMhkKdtMy7otz/view?usp=share_link)
+- cards on the **Main page** on lager mobile screens ([screenshot](https://drive.google.com/file/d/1tVBUUREy0GClkdC6LWbVZoQNhcfIrIAr/view?usp=share_link) example for Samsung Galaxy S20 Ultra) should fill the device witdth, instead they are capped at 345px:
+```
+.jss139 {
+    max-width: 345px;
+}
+```
 - contrast for this element is very low `div.ReportFooterStyled-x8k29a-0.kqrEhp` →
 [screenshot](https://drive.google.com/file/d/1LU-vW2f4ys4GRzIGpouwCGbZjQzJdxRW/view?usp=share_link)
 
@@ -64,7 +76,7 @@ Web app for providing a simple documentation about soccer players performance.
 - I would ignore white spaces in the beggining, and at the end when validating the e-mail
 
 #### adding a player:
-- asterisk is not explained anywhere
+- asterisk is not explained anywhere *(very minor issue)*
 - would not allow adding same language twice →
 [screenshot](https://drive.google.com/file/d/1WYw1QLn7aPEv4H1yl9CHFANBc_Kz5sGw/view?usp=share_link)
 - the tooltip feels disconnected from an input at sumbit validation →
@@ -114,7 +126,7 @@ turn null != (a = b({}, n)).start && null != a.limit && (console.warn("Params `s
 - favicon is not loaded: `GET https://scouts-test.futbolkolektyw.pl/pl/favicon.ico 404` →
 [HAR file](https://drive.google.com/file/d/1xFUkrpT1YLbB3PB-doktXNYxFbwMGnNz/view?usp=share_link)
 - "Clear" btn doesn't work when editting existing player
-- table download does not translate the information from "Matches" and "Reports" →
+- table download does not translate the information from **Matches** and **Reports** →
 [CSV file](https://drive.google.com/file/d/1RYMB7UaoNpeNDsOLw9PKNF6eRZ_c-2eW/view?usp=share_link)
 - especially on mobile the report page looks just broken →
 [video](https://drive.google.com/file/d/1oAjPBv0acvlNnHLq2fl8zV-OGw00wJDK/view?usp=share_link)
@@ -131,6 +143,8 @@ turn null != (a = b({}, n)).start && null != a.limit && (console.warn("Params `s
     at u (f542032078bbadf019700308e0ffe503d5056449.e5058d62b3c6fbb81936.js:1:7662)
 (
 ```
+- Logo is slightly too small to be sharp on the more pixel dense screens →
+[link](https://scouts-test.futbolkolektyw.pl/static/images/logo_platforma.png)
 
 #### translation:
 - "Dev team contact" btn missing polish transaltion →
@@ -143,6 +157,9 @@ turn null != (a = b({}, n)).start && null != a.limit && (console.warn("Params `s
 [screenshot](https://drive.google.com/file/d/1SjsT4ITSQQ93NH92b277vhZO_F-O8OSV/view?usp=sharing)
 
 #### performance:
+
+- font blocking the page load is pretty bad →
+[screenshot](https://drive.google.com/file/d/1KT0X7osSIrb_tliPFuGVVg4WlmSfSQYC/view?usp=share_link)
 - long lodaing time for Matches page due to excessive DOM size →
 [lighthouse report](https://drive.google.com/file/d/1jLWz2neOo_rrcwIFpLVBUfkMr2bnWnfn/view?usp=share_link)
 - long lodaing time for Reports page due to excessive DOM size →
