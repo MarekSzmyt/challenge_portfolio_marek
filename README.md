@@ -162,9 +162,9 @@ turn null != (a = b({}, n)).start && null != a.limit && (console.warn("Params `s
 
 - font blocking the page load is pretty bad →
 [screenshot](https://drive.google.com/file/d/1KT0X7osSIrb_tliPFuGVVg4WlmSfSQYC/view?usp=share_link)
-- long lodaing time for Matches page due to excessive DOM size →
+- long loading time for Matches page due to excessive DOM size →
 [lighthouse report](https://drive.google.com/file/d/1jLWz2neOo_rrcwIFpLVBUfkMr2bnWnfn/view?usp=share_link)
-- long lodaing time for Reports page due to excessive DOM size →
+- long loading time for Reports page due to excessive DOM size →
 [lighthouse report](https://drive.google.com/file/d/1GC6bOElM5Kg3QiZXPiNFKz1Pibr2YjFt/view?usp=share_link)
 
 ## Subtask 5
