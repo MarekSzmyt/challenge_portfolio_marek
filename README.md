@@ -9,7 +9,7 @@
 Testings sounds like a lot of fun - let's try to be the Sherlock Holmes 🕵️! Also, since I'm a designer I think it would help me to make more User centered products.
 
 *Marek*
-## Subtask 4 [WIP]
+## Subtask 4
 
 ### The App
 Web app for providing a simple documentation about soccer players performance. Allows to create player profiles, add mathces their participated in, and gather reports aboutt their performance.
