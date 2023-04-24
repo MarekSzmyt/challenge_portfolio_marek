@@ -77,11 +77,14 @@ Web app for providing a simple documentation about soccer players performance. A
 
 #### adding a player:
 - asterisk is not explained anywhere *(very minor issue)*
-- would not allow adding same language twice →
-[screenshot](https://drive.google.com/file/d/1WYw1QLn7aPEv4H1yl9CHFANBc_Kz5sGw/view?usp=share_link)
 - the tooltip feels disconnected from an input at sumbit validation →
 [screenshot](https://drive.google.com/file/d/16Qke-lDPNDj33EmGbEtycbxobrGTYxN9/view?usp=share_link)
-- much more field validation in general, it's not only makes the UX smoother, and more intuitive but also would reduce potential incosistencies when it comes to providing data and improve data quality in general (i.e. consisntent phone numbers formating)
+- much more field validation in general, it's not only makes the UX smoother, and more intuitive but also would reduce potential incosistencies when it comes to providing data and improve data quality in general:
+  - would not allow adding same language twice →
+  [screenshot](https://drive.google.com/file/d/1WYw1QLn7aPEv4H1yl9CHFANBc_Kz5sGw/view?usp=share_link)
+  - at least simple verification, hint with the formatting and/or limitting the lenght
+  - **weight** and **height** inputs should be numbers only (you can type "e" letter), validation is present but we could avoid typos just by changing     the field type
+  - e-mail format check
 - those fields should have pre-defined values similar to the "District" input to allow translation and improve data quality:
   - Level
   - Main Position
@@ -122,7 +125,6 @@ turn null != (a = b({}, n)).start && null != a.limit && (console.warn("Params `s
                             a._start = "".concat(n.start * n.limit),
                             a._limit = "".concat(n.limit)),
 ```
-- no field validation when adding a player
 - favicon is not loaded: `GET https://scouts-test.futbolkolektyw.pl/pl/favicon.ico 404` →
 [HAR file](https://drive.google.com/file/d/1xFUkrpT1YLbB3PB-doktXNYxFbwMGnNz/view?usp=share_link)
 - "Clear" btn doesn't work when editting existing player
