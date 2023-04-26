@@ -1,4 +1,5 @@
 # Task 1
+📁 [Google Drive](https://drive.google.com/drive/folders/1Q-jXEWLslwTm31_AOYpP8yzxxwIziWEm?usp=share_link)
 ## Subtask 1
 🎯 **8/10** points
 ## Subtask 2
