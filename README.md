@@ -177,7 +177,7 @@ Jira Project was created →
 [backlog](https://markowe.atlassian.net/jira/software/projects/CPP/boards/1/backlog)
 
 # Task 2
-📁 [Google Drive](https://drive.google.com/drive/folders/1Q-jXEWLslwTm31_AOYpP8yzxxwIziWEm?usp=share_link)
+📁 [Google Drive](https://drive.google.com/drive/folders/1fSPjXY9pEjqSDY5uHGb0hraGFfBgV4I-?usp=share_link)
 
 ## Subtask 1
 Test cases based on User Story
@@ -194,6 +194,6 @@ Test cases based on own experience
 
 ## Subtask 4
 Test cases for an Mobile app →
-[screenshot](https://drive.google.com/file/d/1KT0X7osSIrb_tliPFuGVVg4WlmSfSQYC/view?usp=share_link)
+[link](https://pickeatup.io/)
 
 ✏️ [doc](https://docs.google.com/document/d/1grzubanxI90KDDDgP6iut79SIRfEz_UBv7Q1vsEYIsY/edit?usp=share_link)
