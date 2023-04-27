@@ -1,15 +1,19 @@
 # Task 1
 📁 [Google Drive](https://drive.google.com/drive/folders/1Q-jXEWLslwTm31_AOYpP8yzxxwIziWEm?usp=share_link)
+
 ## Subtask 1
 🎯 **8/10** points
+
 ## Subtask 2
 📁 [Repository](https://github.com/MarekSzmyt/challenge_portfolio_marek) was created
+
 ## Subtask 3
 👋 Hey! My name is Marek. I started this project to learn basics of manual testing, and hopufully get the deeper understanding of the developement process. I already learned a quite a bit of frontend (react ❤️) and I work daily as an UX designer.
 
 Testings sounds like a lot of fun - let's try to be the Sherlock Holmes 🕵️! Also, since I'm a designer I think it would help me to make more User centered products.
 
 *Marek*
+
 ## Subtask 4
 
 ### The App
@@ -171,3 +175,25 @@ turn null != (a = b({}, n)).start && null != a.limit && (console.warn("Params `s
 ## Subtask 5
 Jira Project was created →
 [backlog](https://markowe.atlassian.net/jira/software/projects/CPP/boards/1/backlog)
+
+# Task 2
+📁 [Google Drive](https://drive.google.com/drive/folders/1Q-jXEWLslwTm31_AOYpP8yzxxwIziWEm?usp=share_link)
+
+## Subtask 1
+Test cases based on User Story
+
+✏️ [doc](https://docs.google.com/document/d/1K0aCeP-jnbxXgN03Nj1GbVopt8PWaABVdFBMJwbmjPg/edit?usp=share_link)
+
+## Subtask 2
+Test cases based on own experience
+
+✏️ [doc](https://docs.google.com/document/d/18663j-9_0rqHyhF0ruEKW5b0tO1VjSe05aGh7vr4qXY/edit?usp=share_link)
+
+## Subtask 3
+> Why do we prepare test cases?
+
+## Subtask 4
+Test cases for an Mobile app →
+[screenshot](https://drive.google.com/file/d/1KT0X7osSIrb_tliPFuGVVg4WlmSfSQYC/view?usp=share_link)
+
+✏️ [doc](https://docs.google.com/document/d/1grzubanxI90KDDDgP6iut79SIRfEz_UBv7Q1vsEYIsY/edit?usp=share_link)
