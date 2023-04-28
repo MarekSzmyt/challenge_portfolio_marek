@@ -190,7 +190,11 @@ Test cases based on own experience
 ✏️ [doc](https://docs.google.com/document/d/18663j-9_0rqHyhF0ruEKW5b0tO1VjSe05aGh7vr4qXY/edit?usp=share_link)
 
 ## Subtask 3
-> Why do we prepare test cases?
+> Why do we write test cases?
+
+Test cases help to verify whether the application or just a feature satisfies the requirements, and is free of defects. Without them some things can be overlooked or missed, and the quality of the final product can be harmed. In worst case scenario some bugs may cause big finicial costs so making sure that tet cases cover all crucial point it's very importatnt.
+
+It is also a handy cooperation tool so the work can be easly followed by other tersters, and shared with others (devs, pm, client etc.)
 
 ## Subtask 4
 Test cases for an Mobile app →
