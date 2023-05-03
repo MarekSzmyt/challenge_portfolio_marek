@@ -200,4 +200,5 @@ It is also a handy cooperation tool so the work can be easly followed by other t
 Test cases for an Mobile app →
 [link](https://pickeatup.io/)
 
+✅ [jira task](https://markowe.atlassian.net/browse/CPP-1?atlOrigin=eyJpIjoiYjQ5ZThjZWZhZGJhNGIzODk3YmFkZGZkNGYxY2QzZDQiLCJwIjoiaiJ9)
 ✏️ [doc](https://docs.google.com/document/d/1grzubanxI90KDDDgP6iut79SIRfEz_UBv7Q1vsEYIsY/edit?usp=share_link)
