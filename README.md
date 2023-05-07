@@ -203,3 +203,11 @@ Test cases for an Mobile app →
 ✅ [jira task](https://markowe.atlassian.net/browse/CPP-1?atlOrigin=eyJpIjoiYjQ5ZThjZWZhZGJhNGIzODk3YmFkZGZkNGYxY2QzZDQiLCJwIjoiaiJ9)
 
 ✏️ [doc](https://docs.google.com/document/d/1grzubanxI90KDDDgP6iut79SIRfEz_UBv7Q1vsEYIsY/edit?usp=share_link)
+
+# Task 3
+📁 [Google Drive](https://drive.google.com/drive/folders/1HbbcxWWACGM2Ihk50s17DpDg39vFfVN3?usp=sharing)
+
+## Subtask 1
+Bug reporting template created
+
+✏️ [doc](https://docs.google.com/document/d/18Fc9Mmw7BVw2PmVM2gNdmzkdrAXCq829Q3xBa8sLB7k/edit?usp=sharing)
