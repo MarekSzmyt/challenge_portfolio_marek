@@ -208,6 +208,17 @@ Test cases for an Mobile app →
 📁 [Google Drive](https://drive.google.com/drive/folders/1HbbcxWWACGM2Ihk50s17DpDg39vFfVN3?usp=sharing)
 
 ## Subtask 1
-Bug reporting template created
+Bug reporting template
 
 ✏️ [doc](https://docs.google.com/document/d/18Fc9Mmw7BVw2PmVM2gNdmzkdrAXCq829Q3xBa8sLB7k/edit?usp=sharing)
+
+## Subtask 2
+Bug reporting based on the Testcases
+
+✏️ [Test Cases](https://docs.google.com/document/d/1UFOdOIuCxAj-YNvehxKNawdWyxfMCO9-I0A9pZeTxfw/edit?usp=sharing) | 
+[Bug Reports](https://docs.google.com/document/d/15Mj7BSwYYjIpi1GvPfLHnKzI-z15UBQHYx3gEx1i3EQ/edit?usp=sharing)
+
+## Subtask 3
+Test Report
+
+📊 [sheet](https://docs.google.com/spreadsheets/d/1iiE9J9AH0uCzbSfIuPodX0WcmWq8aLDkDDmnVszWsa8/edit?usp=sharing)
