@@ -222,3 +222,8 @@ Bug reporting based on the Testcases
 Test Report
 
 📊 [sheet](https://docs.google.com/spreadsheets/d/1iiE9J9AH0uCzbSfIuPodX0WcmWq8aLDkDDmnVszWsa8/edit?usp=sharing)
+
+## Subtask 4
+Tour - 👻 Anti social
+
+✏️ [doc](https://docs.google.com/document/d/1nbsffiirVOL1N7PLJNBVvycFOdIRlQrGwC8euJx0lds/edit?usp=sharing)
