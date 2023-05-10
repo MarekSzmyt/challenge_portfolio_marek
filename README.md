@@ -1,7 +1,6 @@
-# Task 1
-📁 [Google Drive](https://drive.google.com/drive/folders/1Q-jXEWLslwTm31_AOYpP8yzxxwIziWEm?usp=share_link)
-
+# [Task 1](https://drive.google.com/drive/folders/1Q-jXEWLslwTm31_AOYpP8yzxxwIziWEm?usp=share_link) - Exploration testing
 ![Person holding giant magnifying glass in front of a laptop.](/assets/images/task01.jpg)
+
 ## Subtask 1
 🎯 **8/10** points
 
@@ -177,8 +176,7 @@ turn null != (a = b({}, n)).start && null != a.limit && (console.warn("Params `s
 Jira Project was created →
 [backlog](https://markowe.atlassian.net/jira/software/projects/CPP/boards/1/backlog)
 
-# Task 2
-📁 [Google Drive](https://drive.google.com/drive/folders/1fSPjXY9pEjqSDY5uHGb0hraGFfBgV4I-?usp=share_link)
+# [Task 2](https://drive.google.com/drive/folders/1fSPjXY9pEjqSDY5uHGb0hraGFfBgV4I-?usp=share_link) - Test Cases
 
 ## Subtask 1
 Test cases based on User Story
@@ -205,9 +203,7 @@ Test cases for an Mobile app →
 
 ✏️ [doc](https://docs.google.com/document/d/1grzubanxI90KDDDgP6iut79SIRfEz_UBv7Q1vsEYIsY/edit?usp=share_link)
 
-# Task 3
-📁 [Google Drive](https://drive.google.com/drive/folders/1HbbcxWWACGM2Ihk50s17DpDg39vFfVN3?usp=sharing)
-
+# [Task 3](https://drive.google.com/drive/folders/1HbbcxWWACGM2Ihk50s17DpDg39vFfVN3?usp=sharing) - Bug Reporting
 ![Person holding giant magnifying glass in front of a laptop with a bug inside of it.](/assets/images/task03.jpg)
 
 ## Subtask 1
