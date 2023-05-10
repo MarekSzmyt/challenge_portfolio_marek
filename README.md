@@ -177,6 +177,7 @@ Jira Project was created →
 [backlog](https://markowe.atlassian.net/jira/software/projects/CPP/boards/1/backlog)
 
 # [Task 2](https://drive.google.com/drive/folders/1fSPjXY9pEjqSDY5uHGb0hraGFfBgV4I-?usp=share_link) - Test Cases
+![Two people making a notes on a giant board.](/assets/images/task02.jpg)
 
 ## Subtask 1
 Test cases based on User Story
