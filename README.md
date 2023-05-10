@@ -1,6 +1,7 @@
 # Task 1
 📁 [Google Drive](https://drive.google.com/drive/folders/1Q-jXEWLslwTm31_AOYpP8yzxxwIziWEm?usp=share_link)
 
+![Person holding giant magnifying glass in front of a laptop.](/assets/images/task01.jpg)
 ## Subtask 1
 🎯 **8/10** points
 
@@ -206,6 +207,8 @@ Test cases for an Mobile app →
 
 # Task 3
 📁 [Google Drive](https://drive.google.com/drive/folders/1HbbcxWWACGM2Ihk50s17DpDg39vFfVN3?usp=sharing)
+
+![Person holding giant magnifying glass in front of a laptop with a bug inside of it.](/assets/images/task03.jpg)
 
 ## Subtask 1
 Bug reporting template
