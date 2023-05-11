@@ -227,3 +227,11 @@ Test Report
 Tour - 👻 Anti social
 
 ✏️ [doc](https://docs.google.com/document/d/1nbsffiirVOL1N7PLJNBVvycFOdIRlQrGwC8euJx0lds/edit?usp=sharing)
+
+# [Task 3](https://drive.google.com/drive/folders/1GgWi2NbGUnkjwqOgI94zNyxtdoGV6mYE?usp=share_link) - Mobile App Testing
+![Person in fron of giant mobile device.](/assets/images/task04.jpg)
+
+## Subtask 1
+Bug reporting template
+
+✏️ [doc](https://docs.google.com/document/d/1hHxfr0lF5UeJCMjAvIfl1IE_0wJH_sECKeyu-1Em-b4/edit?usp=share_link)
