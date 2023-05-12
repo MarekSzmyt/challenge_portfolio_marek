@@ -235,3 +235,42 @@ Tour - 👻 Anti social
 Bug reporting template
 
 ✏️ [doc](https://docs.google.com/document/d/1hHxfr0lF5UeJCMjAvIfl1IE_0wJH_sECKeyu-1Em-b4/edit?usp=share_link)
+
+## Subtask 1
+Bug reporting template
+
+✏️ [doc](https://docs.google.com/document/d/1hHxfr0lF5UeJCMjAvIfl1IE_0wJH_sECKeyu-1Em-b4/edit?usp=share_link)
+
+## Subtask 2
+Exploration Testing & Bug Reporting
+
+✏️ [doc](https://docs.google.com/document/d/1HKlwypUkiFY4RdIiLoQ2dvxXfgyWlWTDc2707NsmrsQ/edit?usp=share_link)
+
+## Subtask 3
+
+>What is this app for? What is the purpose of this app?
+
+answer
+
+>Who is going to be the end user of the application?
+
+answer
+
+>Do you think the application is user friendly? (what does it mean that the application is user friendly)
+
+answer
+
+>How would you improve the application? What would you improve about it? Do you have any idea for additional functionality?
+
+answer
+
+>What differences do you see between testing a web application and a native one?
+
+answer
+
+## Subtask 4
+Testing Mobile & Web App
+
+👉 [link to app](https://swipeto.pl/)
+
+✅ [template](https://markowe.atlassian.net/browse/CPP-9?atlOrigin=eyJpIjoiODNmMWM2MGNmYWRmNDg1MjlkZTY2MTU2YTY5MTJmMWYiLCJwIjoiaiJ9)
