@@ -252,21 +252,30 @@ Exploration Testing & Bug Reporting
 
 It's a digital marketplace for a wide range of products and services. It makes money through fees and subscriptions, and monetizes traffic with ads.
 
+• • •
+
 >Who is going to be the end user of the application?
 
 A private or business entity who wants to exchange products or services.
 
->Do you think the application is user friendly? (what does it mean that the application is user friendly)
+• • •
 
-answer
+>Do you think the application is user friendly?
+
+The app is easy to navigate and use. It is intuitive and designed with clarity in mind. The data is very well structured and organized, and it's easy to find the information you're looking for. The app is aesthetically pleasing and visually appealing, and it's easy on the eyes.
+
+• • •
 
 >How would you improve the application? What would you improve about it? Do you have any idea for additional functionality?
 
-answer
+- Compare offers functionality
+
+• • •
 
 >What differences do you see between testing a web application and a native one?
 
-answer
+- Everything is touch based
+- Native funcionalities
 
 ## Subtask 4
 Testing Mobile & Web App
