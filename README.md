@@ -250,11 +250,11 @@ Exploration Testing & Bug Reporting
 
 >What is this app for? What is the purpose of this app?
 
-answer
+It's a digital marketplace for a wide range of products and services. It makes money through fees and subscriptions, and monetizes traffic with ads.
 
 >Who is going to be the end user of the application?
 
-answer
+A private or business entity who wants to exchange products or services.
 
 >Do you think the application is user friendly? (what does it mean that the application is user friendly)
 
