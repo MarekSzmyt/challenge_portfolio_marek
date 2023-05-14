@@ -269,13 +269,32 @@ The app is easy to navigate and use. It is intuitive and designed with clarity i
 >How would you improve the application? What would you improve about it? Do you have any idea for additional functionality?
 
 - Compare offers functionality
+- Offer bundling
+- Prices history
+- Suggesting category when adding a product
 
 • • •
 
 >What differences do you see between testing a web application and a native one?
 
-- Everything is touch based
-- Native funcionalities
+**Focusing on different navigation 👆 🤌**
+
+Tapping, swiping, pulling, and pinching, as well as voice assistants and commands.
+
+• • •
+
+**Offline is a thing 🛜 ✈️**
+
+While web apps require a connection to be used, some mobile apps can be used offline.
+
+• • •
+
+**It's not a browser 🖥️ ❌**
+
+Since it is not using a browser, there are a bunch of new questions that need to be addressed:
+- How much battery life does it drain?
+- How much memory does it use?
+- Can you install and uninstall it?
 
 ## Subtask 4
 Testing Mobile & Web App
