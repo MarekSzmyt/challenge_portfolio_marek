@@ -1,20 +1,43 @@
+### Table of contents
+1. [**Task 1 - Exploration Testing**](#task-1---exploration-testing)
+    - [Subtask 1 - Prework](#subtask-1---prework)
+    - [Subtask 2 - Project Setup](#subtask-2---project-setup)
+    - [Subtask 3 - Introduction](#subtask-3---introduction)
+    - [Subtask 4 - Exploration Testing](#subtask-4---exploration-testing)
+    - [Subtask 5 - Jira Setup](#subtask-5---jira-setup)
+2. [**Task 2 - Test Cases**](#task-2---test-cases)
+    - [Subtask 1 - User Story](#subtask-1---user-story)
+    - [Subtask 2 - Experience](#subtask-2---experience)
+    - [Subtask 3 - Writing Test Cases](#subtask-3---writing-test-cases)
+    - [Subtask 4 - Mobile App](#subtask-4---mobile-app)
+3. [**Task 3 - Bug Reporting**](#task-3---bug-reporting)
+    - [Subtask 1 - Template](#subtask-1---template)
+    - [Subtask 2 - Bug Reporting](#subtask-2---bug-reporting)
+    - [Subtask 3 - Report](#subtask-3---report)
+    - [Subtask 4 - Tour](#subtask-4---tour)
+4. [**Task 4 - Mobile App Testing**](#task-4---mobile-app-testing)
+    - [Subtask 1 - Template](#subtask-1---template-1)
+    - [Subtask 2 - Testing](#subtask-2---testing)
+    - [Subtask 3 - Findings](#subtask-3---findings)
+    - [Subtask 4 - Natvie vs Web](#subtask-4---natvie-vs-web)
+
 # [Task 1](https://drive.google.com/drive/folders/1Q-jXEWLslwTm31_AOYpP8yzxxwIziWEm?usp=share_link) - Exploration Testing
 ![Person holding giant magnifying glass in front of a laptop.](/assets/images/task01.jpg)
 
-## Subtask 1
+## Subtask 1 - Prework
 🎯 **8/10** points
 
-## Subtask 2
+## Subtask 2 - Project Setup
 📁 [Repository](https://github.com/MarekSzmyt/challenge_portfolio_marek) was created
 
-## Subtask 3
+## Subtask 3 - Introduction
 👋 Hey! My name is Marek. I started this project to learn basics of manual testing, and hopufully get the deeper understanding of the developement process. I already learned a quite a bit of frontend (react ❤️) and I work daily as an UX designer.
 
 Testings sounds like a lot of fun - let's try to be the Sherlock Holmes 🕵️! Also, since I'm a designer I think it would help me to make more User centered products.
 
 *Marek*
 
-## Subtask 4
+## Subtask 4 - Exploration Testing
 
 ### The App
 Web app for providing a simple documentation about soccer players performance. Allows to create player profiles, add mathces their participated in, and gather reports aboutt their performance.
@@ -172,31 +195,31 @@ turn null != (a = b({}, n)).start && null != a.limit && (console.warn("Params `s
 - long loading time for Reports page due to excessive DOM size →
 [lighthouse report](https://drive.google.com/file/d/1GC6bOElM5Kg3QiZXPiNFKz1Pibr2YjFt/view?usp=share_link)
 
-## Subtask 5
+## Subtask 5 - Jira Setup
 Jira Project was created →
 [backlog](https://markowe.atlassian.net/jira/software/projects/CPP/boards/1/backlog)
 
 # [Task 2](https://drive.google.com/drive/folders/1fSPjXY9pEjqSDY5uHGb0hraGFfBgV4I-?usp=share_link) - Test Cases
 ![Two people making a notes on a giant board.](/assets/images/task02.jpg)
 
-## Subtask 1
+## Subtask 1 - User Story
 Test cases based on User Story
 
 ✏️ [doc](https://docs.google.com/document/d/1K0aCeP-jnbxXgN03Nj1GbVopt8PWaABVdFBMJwbmjPg/edit?usp=share_link)
 
-## Subtask 2
+## Subtask 2 - Experience
 Test cases based on own experience
 
 ✏️ [doc](https://docs.google.com/document/d/18663j-9_0rqHyhF0ruEKW5b0tO1VjSe05aGh7vr4qXY/edit?usp=share_link)
 
-## Subtask 3
+## Subtask 3 - Writing Test Cases
 > Why do we write test cases?
 
 Test cases help to verify whether the application or just a feature satisfies the requirements, and is free of defects. Without them some things can be overlooked or missed, and the quality of the final product can be harmed. In worst case scenario some bugs may cause big finicial costs so making sure that tet cases cover all crucial point it's very importatnt.
 
 It is also a handy cooperation tool so the work can be easly followed by other tersters, and shared with others (devs, pm, client etc.)
 
-## Subtask 4
+## Subtask 4 - Mobile App
 Test cases for an Mobile app →
 [link](https://pickeatup.io/)
 
@@ -207,46 +230,41 @@ Test cases for an Mobile app →
 # [Task 3](https://drive.google.com/drive/folders/1HbbcxWWACGM2Ihk50s17DpDg39vFfVN3?usp=sharing) - Bug Reporting
 ![Person holding giant magnifying glass in front of a laptop with a bug inside of it.](/assets/images/task03.jpg)
 
-## Subtask 1
+## Subtask 1 - Template
 Bug reporting template
 
 ✏️ [doc](https://docs.google.com/document/d/18Fc9Mmw7BVw2PmVM2gNdmzkdrAXCq829Q3xBa8sLB7k/edit?usp=sharing)
 
-## Subtask 2
-Bug reporting based on the Testcases
+## Subtask 2 - Bug Reporting
+Bug reporting based on the Test Cases
 
 ✏️ [Test Cases](https://docs.google.com/document/d/1UFOdOIuCxAj-YNvehxKNawdWyxfMCO9-I0A9pZeTxfw/edit?usp=sharing) | 
 [Bug Reports](https://docs.google.com/document/d/15Mj7BSwYYjIpi1GvPfLHnKzI-z15UBQHYx3gEx1i3EQ/edit?usp=sharing)
 
-## Subtask 3
+## Subtask 3 - Report
 Test Report
 
 📊 [sheet](https://docs.google.com/spreadsheets/d/1iiE9J9AH0uCzbSfIuPodX0WcmWq8aLDkDDmnVszWsa8/edit?usp=sharing)
 
-## Subtask 4
+## Subtask 4 - Tour
 Tour - 👻 Anti social
 
 ✏️ [doc](https://docs.google.com/document/d/1nbsffiirVOL1N7PLJNBVvycFOdIRlQrGwC8euJx0lds/edit?usp=sharing)
 
-# [Task 3](https://drive.google.com/drive/folders/1GgWi2NbGUnkjwqOgI94zNyxtdoGV6mYE?usp=share_link) - Mobile App Testing
+# [Task 4](https://drive.google.com/drive/folders/1GgWi2NbGUnkjwqOgI94zNyxtdoGV6mYE?usp=share_link) - Mobile App Testing
 ![Person in fron of giant mobile device.](/assets/images/task04.jpg)
 
-## Subtask 1
+## Subtask 1 - Template
 Bug reporting template
 
 ✏️ [doc](https://docs.google.com/document/d/1hHxfr0lF5UeJCMjAvIfl1IE_0wJH_sECKeyu-1Em-b4/edit?usp=share_link)
 
-## Subtask 1
-Bug reporting template
-
-✏️ [doc](https://docs.google.com/document/d/1hHxfr0lF5UeJCMjAvIfl1IE_0wJH_sECKeyu-1Em-b4/edit?usp=share_link)
-
-## Subtask 2
+## Subtask 2 - Testing
 Exploration Testing & Bug Reporting
 
 ✏️ [doc](https://docs.google.com/document/d/1HKlwypUkiFY4RdIiLoQ2dvxXfgyWlWTDc2707NsmrsQ/edit?usp=share_link)
 
-## Subtask 3
+## Subtask 3 - Findings
 
 >What is this app for? What is the purpose of this app?
 
@@ -296,8 +314,8 @@ Since it is not using a browser, there are a bunch of new questions that need to
 - How much memory does it use?
 - Can you install and uninstall it?
 
-## Subtask 4
-Testing Mobile & Web App
+## Subtask 4 - Natvie vs Web 
+Testing Native & Web App
 
 👉 [link to app](https://swipeto.pl/)
 
