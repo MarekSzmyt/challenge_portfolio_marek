@@ -315,8 +315,13 @@ Since it is not using a browser, there are a bunch of new questions that need to
 - Can you install and uninstall it?
 
 ## Subtask 4 - Natvie vs Web 
-Testing Native & Web App
-
-👉 [link to app](https://swipeto.pl/)
+Testing Native & Web App →
+[link](https://swipeto.pl/)
 
 ✅ [template](https://markowe.atlassian.net/browse/CPP-9?atlOrigin=eyJpIjoiODNmMWM2MGNmYWRmNDg1MjlkZTY2MTU2YTY5MTJmMWYiLCJwIjoiaiJ9)
+
+🅾️ [CPP-10](https://markowe.atlassian.net/browse/CPP-10) | 
+[CPP-11](https://markowe.atlassian.net/browse/CPP-11) |
+[CPP-12](https://markowe.atlassian.net/browse/CPP-12) | 
+[CPP-13](https://markowe.atlassian.net/browse/CPP-13) | 
+[CPP-14](https://markowe.atlassian.net/browse/CPP-14)
