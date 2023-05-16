@@ -325,8 +325,14 @@ Testing Native & Web App →
 
 ✅ [template](https://markowe.atlassian.net/browse/CPP-9?atlOrigin=eyJpIjoiODNmMWM2MGNmYWRmNDg1MjlkZTY2MTU2YTY5MTJmMWYiLCJwIjoiaiJ9)
 
-🅾️ [CPP-10](https://markowe.atlassian.net/browse/CPP-10) | 
+🅾️ NATIVE: [CPP-10](https://markowe.atlassian.net/browse/CPP-10) | 
 [CPP-11](https://markowe.atlassian.net/browse/CPP-11) |
 [CPP-12](https://markowe.atlassian.net/browse/CPP-12) | 
 [CPP-13](https://markowe.atlassian.net/browse/CPP-13) | 
 [CPP-14](https://markowe.atlassian.net/browse/CPP-14)
+
+🅾️ WEB: [CPP-15](https://markowe.atlassian.net/browse/CPP-15) | 
+[CPP-16](https://markowe.atlassian.net/browse/CPP-16) |
+[CPP-17](https://markowe.atlassian.net/browse/CPP-17) | 
+[CPP-18](https://markowe.atlassian.net/browse/CPP-18) | 
+[CPP-19](https://markowe.atlassian.net/browse/CPP-19)
