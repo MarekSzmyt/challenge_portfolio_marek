@@ -280,7 +280,9 @@ A private or business entity who wants to exchange products or services.
 
 >Do you think the application is user friendly?
 
-The app is easy to navigate and use. It is intuitive and designed with clarity in mind. The data is very well structured and organized, and it's easy to find the information you're looking for. The app is aesthetically pleasing and visually appealing, and it's easy on the eyes.
+For me, a user-friendly app is intuitive and understandable for any user.
+
+OLX follows those principles when making their app very easy to use. I like how it is structured and organized, and it's easy to find the information or options you're looking for. Also, it is aesthetically pleasing and visually appealing. It doesn't try to overwhelm you with colors and let you focus on content.
 
 • • •
 
@@ -288,8 +290,11 @@ The app is easy to navigate and use. It is intuitive and designed with clarity i
 
 - Compare offers functionality
 - Offer bundling
-- Prices history
 - Suggesting category when adding a product
+- Creating specific product pages with:
+    - Prices history
+    - Transaction history
+    - Product reviews
 
 • • •
 
