@@ -92,7 +92,7 @@ Web app for providing a simple documentation about soccer players performance. A
 [link](https://scouts-test.futbolkolektyw.pl/en/players/6026b48956c79737b3f3c624/reports) |
 [screenshot](https://drive.google.com/file/d/1FV01fiXSejGZ0PBRHUTmMhkKdtMy7otz/view?usp=share_link)
 - cards on the **Main page** on lager mobile screens ([screenshot](https://drive.google.com/file/d/1tVBUUREy0GClkdC6LWbVZoQNhcfIrIAr/view?usp=share_link) example for Samsung Galaxy S20 Ultra) should fill the device witdth, instead they are capped at 345px:
-```
+```css
 .jss139 {
     max-width: 345px;
 }
@@ -126,7 +126,7 @@ browser/device:
 #### general:
 - client error at remind password page when request is sent
 `Payload: user01@getnada.com`
-```
+```js
 {
     "statusCode": 400,
     "error": "Bad Request",
@@ -148,7 +148,7 @@ browser/device:
 [screenshot](https://drive.google.com/file/d/1E5N0RRIn5uAk1FMyEWeSKltIfdtt2rC_/view?usp=share_link)
 - on mobile 2nd link takes very long time to work →
 [video](https://drive.google.com/file/d/1FTmVPSFOrutoswQQB3rpbxnGTKUArZa6/view?usp=share_link)
-```
+```js
 turn null != (a = b({}, n)).start && null != a.limit && (console.warn("Params `start` and `limit` are deprecated. Use `_start` and `_limit`"),
                             a._start = "".concat(n.start * n.limit),
                             a._limit = "".concat(n.limit)),
@@ -163,7 +163,7 @@ turn null != (a = b({}, n)).start && null != a.limit && (console.warn("Params `s
 - validation needed for the **weight** and **height** inputs in player page, negative values can be used  →
 [screenshot](https://drive.google.com/file/d/180gnWX71p1okxy3-Am34YHMGbvjgQkLL/view?usp=share_link)
 - `Incompatible href and as values` when clicking "back to report" btn on the "unsaved report" card
-```
+```js
 42032078bbadf019700308e0ffe503d5056449.e5058d62b3c6fbb81936.js:1 Uncaught (in promise) Error: The provided `as` value (/en/players/630a542662fd50f9620fda33/reports/start) is incompatible with the `href` value (/players/[id]/reports/start). Read more: https://err.sh/vercel/next.js/incompatible-href-as
     at t.<anonymous> (f542032078bbadf019700308e0ffe503d5056449.e5058d62b3c6fbb81936.js:1:19629)
     at c (f542032078bbadf019700308e0ffe503d5056449.e5058d62b3c6fbb81936.js:1:2099)
