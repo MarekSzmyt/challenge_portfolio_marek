@@ -22,6 +22,8 @@
     - [Natvie vs Web](#subtask-4---natvie-vs-web)
 5. [**SQL**](#task-5---sql)
     - [Basics](#subtask-1---basics)
+    - [Environment Setup](#subtask-2---environment-setup)
+    - [Exercise](#subtask-3---exercise)
 
 # [Task 1](https://drive.google.com/drive/folders/1Q-jXEWLslwTm31_AOYpP8yzxxwIziWEm?usp=share_link) - Exploration Testing
 ![Person holding giant magnifying glass in front of a laptop.](/assets/images/task01.jpg)
@@ -343,3 +345,32 @@ Testing Native & Web App →
 ![Person touching giant code blocks.](/assets/images/task05.jpg)
 
 ## Subtask 1 - Basics
+
+[🎓 Tutorial link](https://www.w3schools.com/sql/exercise.asp?)
+
+<img src="/assets/images/sqlTest.png" alt="Test result confirmation." width="460" height="240">
+
+## Subtask 2 - Environment Setup
+
+
+## Subtask 3 - Exercise
+
+>1. Display the actors table in alphabetical order by sorting by the surname column.
+
+>2. View a video that was made in 2019.
+
+>3. View all movies made between 1900 and 1999.
+
+>4. Display ONLY the title and price of movies that cost less than $7
+
+>5. Use the logical AND operator to display actors with actor_ids between 4-7 (4 and 7 should display). DO NOT USE BETWEEN operator.
+
+>6. Display customers with id 2,4,6 use logical condition for this.
+
+>7. Display clients with id 1,3,5 use IN operator for this.
+
+>8. Display the details of all persons in the 'actors' table whose name starts with 'An'.
+
+>9. Display details of a customer who does not have an email address provided.
+
+>10. View all movies priced over $9 and with an ID between 2 and 8 movie_id.
