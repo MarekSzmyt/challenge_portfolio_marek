@@ -23,7 +23,7 @@
 5. [**SQL**](#task-5---sql)
     - [Basics](#subtask-1---basics)
     - [Environment Setup](#subtask-2---environment-setup)
-    - [Exercise](#subtask-3---exercise)
+    - [Exercises](#subtask-3---exercises)
 
 # [Task 1](https://drive.google.com/drive/folders/1Q-jXEWLslwTm31_AOYpP8yzxxwIziWEm?usp=share_link) - Exploration Testing
 ![Person holding giant magnifying glass in front of a laptop.](/assets/images/task01.jpg)
@@ -359,7 +359,7 @@ Setup the server and import the database using xampp.
 
 📊 [database](https://drive.google.com/file/d/11ToeE1M3G6Ea1eiV40dxNcuqG_Ew3H0k/view?usp=share_link)
 
-## Subtask 3 - Exercise
+## Subtask 3 - Exercises
 
 >1. Display the **actors** table in alphabetical order by sorting by the **surname** column.
 
@@ -372,13 +372,51 @@ ORDER BY surname;
 
 <br clear="right"/>
 
->2. Display a **video** that was made in **2019**.
+>2. Display a **movie** that was made in **2019**.
+
+<img align="right" src="/assets/images/sql02.png" alt="screenshot with sorted table" width="313" height="50">
+
+```sql
+SELECT * FROM movies
+WHERE year_of_production = '2019';
+```
+
+<br clear="right"/>
 
 >3. Display all **movies** made between **1900** and **1999**.
 
+<img align="right" src="/assets/images/sql03.png" alt="screenshot with sorted table" width="481" height="92">
+
+```sql
+SELECT * FROM movies
+WHERE year_of_production BETWEEN 1900 AND 1999;
+```
+
+<br clear="right"/>
+
 >4. Display ONLY the **title** and **price** of **movies** that cost less than **$7**
 
->5. Use the logical `AND` operator to display **actors** with **actor_ids** between **4-7** (4 and 7 should display). Don't use `BETWEEN` operator.
+<img align="right" src="/assets/images/sql04.png" alt="screenshot with sorted table" width="282" height="139">
+
+```sql
+SELECT title, price FROM movies
+WHERE price < 7;
+```
+
+<br clear="right"/>
+
+>5. Use the logical `AND` operator to display **actors** with **actor_ids** between **4-7** (4 and 7 included). Don't use `BETWEEN` operator.
+
+
+<img align="right" src="/assets/images/sql05.png" alt="screenshot with sorted table" width="227" height="118">
+
+```sql
+SELECT * FROM actors
+WHERE actor_id >= 4
+AND actor_id <= 7;
+```
+
+<br clear="right"/>
 
 >6. Display **customers** with **id 2,4,6** use logical condition for this.
 
