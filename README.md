@@ -355,35 +355,37 @@ Testing Native & Web App →
 <br clear="right"/>
 
 ## Subtask 2 - Environment Setup
+Setup the server and import the database using xampp.
 
+📊 [database](https://drive.google.com/file/d/11ToeE1M3G6Ea1eiV40dxNcuqG_Ew3H0k/view?usp=share_link)
 
 ## Subtask 3 - Exercise
 
->1. Display the actors table in alphabetical order by sorting by the surname column.
+>1. Display the **actors** table in alphabetical order by sorting by the **surname** column.
 
-<img align="right" src="/assets/images/-" alt="screenshot with sorted table" width="240" height="240">
+<img align="right" src="/assets/images/sql01.png" alt="screenshot with sorted table" width="242" height="250">
 
 ```sql
 SELECT * FROM Customers
-WHERE City = 'Berlin';
+ORDER BY surname;
 ```
 
 <br clear="right"/>
 
->2. Display a video that was made in 2019.
+>2. Display a **video** that was made in **2019**.
 
->3. Display all movies made between 1900 and 1999.
+>3. Display all **movies** made between **1900** and **1999**.
 
->4. Display ONLY the title and price of movies that cost less than $7
+>4. Display ONLY the **title** and **price** of **movies** that cost less than **$7**
 
->5. Use the logical `AND` operator to display actors with actor_ids between 4-7 (4 and 7 should display). Don't use `BETWEEN` operator.
+>5. Use the logical `AND` operator to display **actors** with **actor_ids** between **4-7** (4 and 7 should display). Don't use `BETWEEN` operator.
 
->6. Display customers with id 2,4,6 use logical condition for this.
+>6. Display **customers** with **id 2,4,6** use logical condition for this.
 
->7. Display clients with id 1,3,5 use `IN` operator for this.
+>7. Display **clients** with **id 1,3,5** use `IN` operator for this.
 
->8. Display the details of all persons in the 'actors' table whose name starts with 'An'.
+>8. Display the details of all persons in the **actors** table whose name starts with **'An'**.
 
->9. Display details of a customer who does not have an email address provided.
+>9. Display details of a **customer** who does not have an **email address** provided.
 
->10. Display all movies priced over $9 and with an ID between 2 and 8 movie_id.
+>10. Display all **movies** priced over **$9** and with an **movie_id** between **2 and 8**.
