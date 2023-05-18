@@ -357,20 +357,29 @@ Testing Native & Web App →
 
 >1. Display the actors table in alphabetical order by sorting by the surname column.
 
->2. View a video that was made in 2019.
+<img align="right" src="/assets/images/-" alt="screenshot with sorted table" width="240" height="240">
 
->3. View all movies made between 1900 and 1999.
+```sql
+SELECT * FROM Customers
+WHERE City = 'Berlin';
+```
+
+<br clear="right"/>
+
+>2. Display a video that was made in 2019.
+
+>3. Display all movies made between 1900 and 1999.
 
 >4. Display ONLY the title and price of movies that cost less than $7
 
->5. Use the logical AND operator to display actors with actor_ids between 4-7 (4 and 7 should display). DO NOT USE BETWEEN operator.
+>5. Use the logical `AND` operator to display actors with actor_ids between 4-7 (4 and 7 should display). Don't use `BETWEEN` operator.
 
 >6. Display customers with id 2,4,6 use logical condition for this.
 
->7. Display clients with id 1,3,5 use IN operator for this.
+>7. Display clients with id 1,3,5 use `IN` operator for this.
 
 >8. Display the details of all persons in the 'actors' table whose name starts with 'An'.
 
 >9. Display details of a customer who does not have an email address provided.
 
->10. View all movies priced over $9 and with an ID between 2 and 8 movie_id.
+>10. Display all movies priced over $9 and with an ID between 2 and 8 movie_id.
