@@ -20,6 +20,8 @@
     - [Testing](#subtask-2---testing)
     - [Findings](#subtask-3---findings)
     - [Natvie vs Web](#subtask-4---natvie-vs-web)
+5. [**SQL**](#task-5---sql)
+    - [Basics](#subtask-1---basics)
 
 # [Task 1](https://drive.google.com/drive/folders/1Q-jXEWLslwTm31_AOYpP8yzxxwIziWEm?usp=share_link) - Exploration Testing
 ![Person holding giant magnifying glass in front of a laptop.](/assets/images/task01.jpg)
@@ -242,12 +244,12 @@ Bug reporting based on the Test Cases
 [Bug Reports](https://docs.google.com/document/d/15Mj7BSwYYjIpi1GvPfLHnKzI-z15UBQHYx3gEx1i3EQ/edit?usp=sharing)
 
 ## Subtask 3 - Report
-Test Report
 
 📊 [sheet](https://docs.google.com/spreadsheets/d/1iiE9J9AH0uCzbSfIuPodX0WcmWq8aLDkDDmnVszWsa8/edit?usp=sharing)
+![Testing raport with charts.](/assets/images/report.png)
 
 ## Subtask 4 - Tour
-Tour - 👻 Anti social
+👻 Anti social Tour
 
 ✏️ [doc](https://docs.google.com/document/d/1nbsffiirVOL1N7PLJNBVvycFOdIRlQrGwC8euJx0lds/edit?usp=sharing)
 
@@ -325,14 +327,19 @@ Testing Native & Web App →
 
 ✅ [template](https://markowe.atlassian.net/browse/CPP-9?atlOrigin=eyJpIjoiODNmMWM2MGNmYWRmNDg1MjlkZTY2MTU2YTY5MTJmMWYiLCJwIjoiaiJ9)
 
-🅾️ NATIVE: [CPP-10](https://markowe.atlassian.net/browse/CPP-10) | 
+🔴 NATIVE: [CPP-10](https://markowe.atlassian.net/browse/CPP-10) | 
 [CPP-11](https://markowe.atlassian.net/browse/CPP-11) |
 [CPP-12](https://markowe.atlassian.net/browse/CPP-12) | 
 [CPP-13](https://markowe.atlassian.net/browse/CPP-13) | 
 [CPP-14](https://markowe.atlassian.net/browse/CPP-14)
 
-🅾️ WEB: [CPP-15](https://markowe.atlassian.net/browse/CPP-15) | 
+🔴 WEB: [CPP-15](https://markowe.atlassian.net/browse/CPP-15) | 
 [CPP-16](https://markowe.atlassian.net/browse/CPP-16) |
 [CPP-17](https://markowe.atlassian.net/browse/CPP-17) | 
 [CPP-18](https://markowe.atlassian.net/browse/CPP-18) | 
 [CPP-19](https://markowe.atlassian.net/browse/CPP-19)
+
+# Task 5 - SQL
+![Person touching giant code blocks.](/assets/images/task05.jpg)
+
+## Subtask 1 - Basics
