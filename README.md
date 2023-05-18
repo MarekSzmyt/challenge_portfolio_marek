@@ -372,6 +372,8 @@ ORDER BY surname;
 
 <br clear="right"/>
 
+• • •
+
 >2. Display a **movie** that was made in **2019**.
 
 <img align="right" src="/assets/images/sql02.png" alt="screenshot with sorted table" width="313" height="50">
@@ -382,6 +384,8 @@ WHERE year_of_production = '2019';
 ```
 
 <br clear="right"/>
+
+• • •
 
 >3. Display all **movies** made between **1900** and **1999**.
 
@@ -394,6 +398,8 @@ WHERE year_of_production BETWEEN 1900 AND 1999;
 
 <br clear="right"/>
 
+• • •
+
 >4. Display ONLY the **title** and **price** of **movies** that cost less than **$7**
 
 <img align="right" src="/assets/images/sql04.png" alt="screenshot with sorted table" width="282" height="139">
@@ -404,6 +410,8 @@ WHERE price < 7;
 ```
 
 <br clear="right"/>
+
+• • •
 
 >5. Use the logical `AND` operator to display **actors** with **actor_ids** between **4-7** (4 and 7 included). Don't use `BETWEEN` operator.
 
@@ -417,6 +425,8 @@ AND actor_id <= 7;
 ```
 
 <br clear="right"/>
+
+• • •
 
 >6. Display **customers** with **id 2,4,6** use logical condition for this.
 
