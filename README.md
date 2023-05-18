@@ -346,9 +346,13 @@ Testing Native & Web App →
 
 ## Subtask 1 - Basics
 
-[🎓 Tutorial link](https://www.w3schools.com/sql/exercise.asp?)
 
-<img src="/assets/images/sqlTest.png" alt="Test result confirmation." width="460" height="240">
+<img align="right" src="/assets/images/sqlTest.png" alt="Test result confirmation." width="460" height="240">
+
+[🎓 Tutorial link:](https://www.w3schools.com/sql/exercise.asp?)
+
+`Select`, `Where`, `Order By`, `Insert`, `Null`, `Update`, `Delete`, `Functions`, `Like`, `Wildcards`, `In`, `Between`, `Alias`, `Join`, `Group By`, `Database`
+<br clear="right"/>
 
 ## Subtask 2 - Environment Setup
 
