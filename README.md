@@ -248,6 +248,7 @@ Bug reporting based on the Test Cases
 ## Subtask 3 - Report
 
 📊 [sheet](https://docs.google.com/spreadsheets/d/1iiE9J9AH0uCzbSfIuPodX0WcmWq8aLDkDDmnVszWsa8/edit?usp=sharing)
+
 ![Testing raport with charts.](/assets/images/report.png)
 
 ## Subtask 4 - Tour
@@ -415,7 +416,6 @@ WHERE price < 7;
 
 >5. Use the logical `AND` operator to display **actors** with **actor_ids** between **4-7** (4 and 7 included). Don't use `BETWEEN` operator.
 
-
 <img align="right" src="/assets/images/sql05.png" alt="screenshot with sorted table" width="227" height="118">
 
 ```sql
@@ -428,12 +428,68 @@ AND actor_id <= 7;
 
 • • •
 
->6. Display **customers** with **id 2,4,6** use logical condition for this.
+>6. Display **customers** with **customer_id 2,4,6** use logical condition for this.
 
->7. Display **clients** with **id 1,3,5** use `IN` operator for this.
+<img align="right" src="/assets/images/sql06.png" alt="screenshot with sorted table" width="342" height="94">
 
->8. Display the details of all persons in the **actors** table whose name starts with **'An'**.
+```sql
+SELECT * FROM customers
+WHERE customer_id = '2'
+OR customer_id = '4'
+OR customer_id = '6';
+```
+
+<br clear="right"/>
+
+• • •
+
+>7. Display **customers** with **customer_id 1,3,5** use `IN` operator for this.
+
+<img align="right" src="/assets/images/sql07.png" alt="screenshot with sorted table" width="330" height="96">
+
+```sql
+SELECT * FROM customers
+WHERE customer_id IN (1, 3, 5);
+```
+
+<br clear="right"/>
+
+• • •
+
+>8. Display the details of all people in the **actors** table whose name starts with **'An'**.
+
+<img align="right" src="/assets/images/sql08.png" alt="screenshot with sorted table" width="204" height="73">
+
+```sql
+SELECT * FROM actors
+WHERE name LIKE 'An%';
+```
+
+<br clear="right"/>
+
+• • •
 
 >9. Display details of a **customer** who does not have an **email address** provided.
 
+<img align="right" src="/assets/images/sql09.png" alt="screenshot with sorted table" width="281" height="49">
+
+```sql
+SELECT * FROM customers
+WHERE email IS NULL;
+```
+
+<br clear="right"/>
+
+• • •
+
 >10. Display all **movies** priced over **$9** and with an **movie_id** between **2 and 8**.
+
+<img align="right" src="/assets/images/sql10.png" alt="screenshot with sorted table" width="349" height="95">
+
+```sql
+SELECT * FROM movies
+WHERE price > 9
+AND movie_id BETWEEN 2 AND 8;
+```
+
+<br clear="right"/>
