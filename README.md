@@ -502,6 +502,53 @@ AND movie_id BETWEEN 2 AND 8;
 
 ## Subtask 1 - Exercises
 
+>11. I made a mistake typing the **name** of Ania Miler - I entered Muler. Find and use a function that will correct my mistake.
+
+<img align="right" src="/assets/images/sql07.png" alt="screenshot with sorted table" width="330" height="96">
+
+```sql
+SELECT * FROM customers
+WHERE customer_id IN (1, 3, 5);
+```
+
+<br clear="right"/>
+
+• • •
+
+>12. I charged too much money from a customer who recently bought a movie with id 4. Use the join function to check the customer's name and email address. In order to write him a message about the mistake of a fantastic boss.
+
+• • •
+
+>13. Surely you noticed that the seller forgot to enter the e-mail address of Patricia's client. Complete this gap by typing: pati@mail.com
+
+• • •
+
+>14. For each purchase, display the name of the customer who made the rental and the title of the rented movie. (use the inner join function for this, think beforehand which tables will be useful for you to perform the exercise).
+
+• • •
+
+>15. In order to anonymise data, you want to create pseudonyms for your clients. - Add a column named 'pseudonym' to the customer table, - Fill in the column so that the nickname is made up of the first two letters of the first name and the last letter of the last name. E.g. Natalie Pilling → Nag
+
+• • •
+
+>16. Display the titles of the movies that have been purchased, display the table in such a way that the titles do not repeat.
+
+• • •
+
+>17. Display a common list of the names of all actors and clients, and sort the result alphabetically. (Use the UNION function for this)
+
+• • •
+
+>18. Inflation has taken over Poland and our movie shop has also suffered from this problem. Increase the price of all movies made after 2000 by $2.50 (Remember that the dollar is the default unit - don't use it anywhere).
+
+• • •
+
+>19. Display the name of the actor with id 4 and the title of the movie he starred in
+
+• • •
+
+>20. Where's our HONIA!? Add a new tuple to the customers table, where customer_id = 7, name = Honia, surname = Stuczka-Kucharska, email = honia@mail.com and pseudonym = Hoa
+
 ## Subtask 2 - Quiz
 
 <img align="right" src="/assets/images/quiz-result.png" alt="Robot writing code." width="320" height="150">
