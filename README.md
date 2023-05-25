@@ -20,10 +20,14 @@
     - [Testing](#subtask-2---testing)
     - [Findings](#subtask-3---findings)
     - [Natvie vs Web](#subtask-4---natvie-vs-web)
-5. [**SQL**](#task-5---sql)
+5. [**SQL (part I)**](#task-5---sql-part-i)
     - [Basics](#subtask-1---basics)
     - [Environment Setup](#subtask-2---environment-setup)
     - [Exercises](#subtask-3---exercises)
+6. [**SQL (part II)**](#task-6---sql-part-ii)
+    - [Exercises](#subtask-1---exercises)
+    - [Quiz](#subtask-2---quiz)
+    - [Portfolio](#subtask-3---portfolio)
 
 # [Task 1](https://drive.google.com/drive/folders/1Q-jXEWLslwTm31_AOYpP8yzxxwIziWEm?usp=share_link) - Exploration Testing
 ![Person holding giant magnifying glass in front of a laptop.](/assets/images/task01.jpg)
@@ -342,11 +346,10 @@ Testing Native & Web App →
 [CPP-18](https://markowe.atlassian.net/browse/CPP-18) | 
 [CPP-19](https://markowe.atlassian.net/browse/CPP-19)
 
-# Task 5 - SQL
+# Task 5 - SQL (part I)
 ![Person touching giant code blocks.](/assets/images/task05.jpg)
 
 ## Subtask 1 - Basics
-
 
 <img align="right" src="/assets/images/sqlTest.png" alt="Test result confirmation." width="460" height="240">
 
@@ -493,3 +496,19 @@ AND movie_id BETWEEN 2 AND 8;
 ```
 
 <br clear="right"/>
+
+# Task 6 - SQL (part II)
+![Person touching giant code blocks.](/assets/images/task06.jpg)
+
+## Subtask 1 - Exercises
+
+## Subtask 2 - Quiz
+
+<img align="right" src="/assets/images/quiz-result.png" alt="Robot writing code." width="320" height="150">
+
+[🎓 Quiz link:](http://getistqb.com/quiz-ecru/)
+
+🎯 **13/15** points
+<br clear="right"/>
+
+## Subtask 3 - Portfolio
