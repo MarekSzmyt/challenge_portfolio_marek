@@ -537,11 +537,37 @@ WHERE sale.movie_id = 4;
 
 • • •
 
->13. Surely you noticed that the seller forgot to enter the **email** address of Patricia's client. Complete this gap by typing: pati@mail.com
+>13. Surely you noticed that the seller forgot to enter the **email** address for *Patrycja*. Complete this gap by typing: pati@mail.com
+
+<img align="right" src="/assets/images/sql13.png" alt="screenshot with sorted table" width="563" height="337">
+
+```sql
+UPDATE customers
+SET email = 'pati@mail.com'
+WHERE name = 'Patrycja';
+```
+
+<br clear="right"/>
 
 • • •
 
->14. For each purchase, display the name of the customer who made the rental and the title of the rented movie. (use the inner join function for this, think beforehand which tables will be useful for you to perform the exercise).
+>14. For each **purchase**, display the **name** and **surname** of the customer who made the rental and the **title** of the rented movie. (use the **inner join** function).
+
+<img align="right" src="/assets/images/sql14.png" alt="screenshot with sorted table" width="363" height="335">
+
+```sql
+SELECT
+	customers.name,
+    customers.surname,
+    movies.title
+FROM customers
+INNER JOIN sale
+    ON customers.customer_id = sale.customer_id
+INNER JOIN movies
+    ON sale.movie_id = movies.movie_id;
+```
+
+<br clear="right"/>
 
 • • •
 
