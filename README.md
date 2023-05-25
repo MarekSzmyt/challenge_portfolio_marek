@@ -423,8 +423,9 @@ WHERE price < 7;
 
 ```sql
 SELECT * FROM actors
-WHERE actor_id >= 4
-AND actor_id <= 7;
+WHERE
+    actor_id >= 4
+    AND actor_id <= 7;
 ```
 
 <br clear="right"/>
@@ -437,9 +438,10 @@ AND actor_id <= 7;
 
 ```sql
 SELECT * FROM customers
-WHERE customer_id = '2'
-OR customer_id = '4'
-OR customer_id = '6';
+WHERE
+    customer_id = '2'
+    OR customer_id = '4'
+    OR customer_id = '6';
 ```
 
 <br clear="right"/>
@@ -491,8 +493,9 @@ WHERE email IS NULL;
 
 ```sql
 SELECT * FROM movies
-WHERE price > 9
-AND movie_id BETWEEN 2 AND 8;
+WHERE
+    price > 9
+    AND movie_id BETWEEN 2 AND 8;
 ```
 
 <br clear="right"/>
@@ -502,24 +505,39 @@ AND movie_id BETWEEN 2 AND 8;
 
 ## Subtask 1 - Exercises
 
->11. I made a mistake typing the **name** of Ania Miler - I entered Muler. Find and use a function that will correct my mistake.
+>11. I made a mistake typing the **name** of *Ania Miler* - I entered *Muler*. Find and use a function that will correct my mistake.
 
-<img align="right" src="/assets/images/sql07.png" alt="screenshot with sorted table" width="330" height="96">
+<img align="right" src="/assets/images/sql11.png" alt="screenshot with sorted table" width="566" height="230">
 
 ```sql
-SELECT * FROM customers
-WHERE customer_id IN (1, 3, 5);
+UPDATE customers
+SET surname = 'Miler'
+WHERE
+	name = 'Ania'
+    AND surname = 'Muler';
 ```
 
 <br clear="right"/>
 
 • • •
 
->12. I charged too much money from a customer who recently bought a movie with id 4. Use the join function to check the customer's name and email address. In order to write him a message about the mistake of a fantastic boss.
+>12. I charged too much money from a customer who recently bought a movie with **id 4**. Use the **join** function to check the customer's name and email address.
+
+<img align="right" src="/assets/images/sql12.png" alt="screenshot with sorted table" width="233" height="50">
+
+```sql
+SELECT name, email, sale.movie_id
+FROM customers
+INNER JOIN sale
+ON customers.customer_id = sale.customer_id
+WHERE sale.movie_id = 4;
+```
+
+<br clear="right"/>
 
 • • •
 
->13. Surely you noticed that the seller forgot to enter the e-mail address of Patricia's client. Complete this gap by typing: pati@mail.com
+>13. Surely you noticed that the seller forgot to enter the **email** address of Patricia's client. Complete this gap by typing: pati@mail.com
 
 • • •
 
