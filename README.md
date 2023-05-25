@@ -513,7 +513,7 @@ WHERE
 UPDATE customers
 SET surname = 'Miler'
 WHERE
-	name = 'Ania'
+    name = 'Ania'
     AND surname = 'Muler';
 ```
 
@@ -529,7 +529,7 @@ WHERE
 SELECT name, email, sale.movie_id
 FROM customers
 INNER JOIN sale
-ON customers.customer_id = sale.customer_id
+    ON customers.customer_id = sale.customer_id
 WHERE sale.movie_id = 4;
 ```
 
@@ -557,7 +557,7 @@ WHERE name = 'Patrycja';
 
 ```sql
 SELECT
-	customers.name,
+    customers.name,
     customers.surname,
     movies.title
 FROM customers
