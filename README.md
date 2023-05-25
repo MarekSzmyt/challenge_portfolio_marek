@@ -597,9 +597,11 @@ INNER JOIN movies
 
 <img align="right" src="/assets/images/quiz-result.png" alt="Robot writing code." width="320" height="150">
 
-[🎓 Quiz link:](http://getistqb.com/quiz-ecru/)
+[🎓 Quiz link](http://getistqb.com/quiz-ecru/)
 
 🎯 **13/15** points
 <br clear="right"/>
 
 ## Subtask 3 - Portfolio
+
+[🔨 Protfolio](https://github.com/MarekSzmyt/portfolio)
