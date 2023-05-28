@@ -279,13 +279,13 @@ Exploration Testing & Bug Reporting
 
 It's a digital marketplace for a wide range of products and services. It makes money through fees and subscriptions, and monetizes traffic with ads.
 
-• • •
+---
 
 >Who is going to be the end user of the application?
 
 A private or business entity who wants to exchange products or services.
 
-• • •
+---
 
 >Do you think the application is user friendly?
 
@@ -293,7 +293,7 @@ For me, a user-friendly app is intuitive and understandable for any user.
 
 OLX follows those principles when making their app very easy to use. I like how it is structured and organized, and it's easy to find the information or options you're looking for. Also, it is aesthetically pleasing and visually appealing. It doesn't try to overwhelm you with colors and let you focus on content.
 
-• • •
+---
 
 >How would you improve the application? What would you improve about it? Do you have any idea for additional functionality?
 
@@ -305,7 +305,7 @@ OLX follows those principles when making their app very easy to use. I like how 
     - Transaction history
     - Product reviews
 
-• • •
+---
 
 >What differences do you see between testing a web application and a native one?
 
@@ -313,13 +313,13 @@ OLX follows those principles when making their app very easy to use. I like how 
 
 Tapping, swiping, pulling, and pinching, as well as voice assistants and commands.
 
-• • •
+---
 
 **Offline is a thing 🛜 ✈️**
 
 While web apps require a connection to be used, some mobile apps can be used offline.
 
-• • •
+---
 
 **It's not a browser 🖥️ ❌**
 
@@ -389,7 +389,7 @@ WHERE year_of_production = '2019';
 
 <br clear="right"/>
 
-• • •
+---
 
 >3. Display all **movies** made between **1900** and **1999**.
 
@@ -402,7 +402,7 @@ WHERE year_of_production BETWEEN 1900 AND 1999;
 
 <br clear="right"/>
 
-• • •
+---
 
 >4. Display ONLY the **title** and **price** of **movies** that cost less than **$7**
 
@@ -415,7 +415,7 @@ WHERE price < 7;
 
 <br clear="right"/>
 
-• • •
+---
 
 >5. Use the logical `AND` operator to display **actors** with **actor_ids** between **4-7** (4 and 7 included). Don't use `BETWEEN` operator.
 
@@ -430,7 +430,7 @@ WHERE
 
 <br clear="right"/>
 
-• • •
+---
 
 >6. Display **customers** with **customer_id 2,4,6** use logical condition for this.
 
@@ -459,7 +459,7 @@ WHERE customer_id IN (1, 3, 5);
 
 <br clear="right"/>
 
-• • •
+---
 
 >8. Display the details of all people in the **actors** table whose name starts with **'An'**.
 
@@ -472,7 +472,7 @@ WHERE name LIKE 'An%';
 
 <br clear="right"/>
 
-• • •
+---
 
 >9. Display details of a **customer** who does not have an **email address** provided.
 
@@ -485,7 +485,7 @@ WHERE email IS NULL;
 
 <br clear="right"/>
 
-• • •
+---
 
 >10. Display all **movies** priced over **$9** and with an **movie_id** between **2 and 8**.
 
@@ -519,7 +519,7 @@ WHERE
 
 <br clear="right"/>
 
-• • •
+---
 
 >12. I charged too much money from a customer who recently bought a movie with **id 4**. Use the **join** function to check the customer's name and email address.
 
@@ -535,7 +535,7 @@ WHERE sale.movie_id = 4;
 
 <br clear="right"/>
 
-• • •
+---
 
 >13. Surely you noticed that the seller forgot to enter the **email** address for *Patrycja*. Complete this gap by typing: pati@mail.com
 
@@ -549,7 +549,7 @@ WHERE name = 'Patrycja';
 
 <br clear="right"/>
 
-• • •
+---
 
 >14. For each **purchase**, display the **name** and **surname** of the customer who made the rental and the **title** of the rented movie. (use the **inner join** function).
 
@@ -569,29 +569,99 @@ INNER JOIN movies
 
 <br clear="right"/>
 
-• • •
+---
 
 >15. In order to anonymise data, you want to create pseudonyms for your clients. - Add a column named 'pseudonym' to the customer table, - Fill in the column so that the nickname is made up of the first two letters of the first name and the last letter of the last name. E.g. Natalie Pilling → Nag
 
-• • •
+<img align="right" src="/assets/images/sql15.png" alt="screenshot with sorted table" width="563" height="339">
+
+```sql
+ALTER TABLE customers
+ADD pseudonym varchar(3);
+```
+
+```sql
+UPDATE customers
+SET pseudonym = CONCAT(LEFT(name, 2), RIGHT(surname, 1));
+```
+
+<br clear="right"/>
+
+---
 
 >16. Display the titles of the movies that have been purchased, display the table in such a way that the titles do not repeat.
 
-• • •
+<img align="right" src="/assets/images/sql16.png" alt="screenshot with sorted table" width="231" height="224">
 
->17. Display a common list of the names of all actors and clients, and sort the result alphabetically. (Use the UNION function for this)
+```sql
+SELECT DISTINCT title
+FROM movies
+INNER JOIN sale
+    ON movies.movie_id = sale.movie_id
+WHERE sale.sale_date IS NOT null;
+```
 
-• • •
+<br clear="right"/>
 
->18. Inflation has taken over Poland and our movie shop has also suffered from this problem. Increase the price of all movies made after 2000 by $2.50 (Remember that the dollar is the default unit - don't use it anywhere).
+---
 
-• • •
+>17. Display a common list of the **names** of all **actors** and **clients**, and sort the result alphabetically. (Use the **UNION** function for this)
 
->19. Display the name of the actor with id 4 and the title of the movie he starred in
+<img align="right" src="/assets/images/sql17.png" alt="screenshot with sorted table" width="89" height="380">
 
-• • •
+```sql
+SELECT name FROM actors
+UNION
+SELECT name FROM customers
+ORDER BY name ASC;
+```
 
->20. Where's our HONIA!? Add a new tuple to the customers table, where customer_id = 7, name = Honia, surname = Stuczka-Kucharska, email = honia@mail.com and pseudonym = Hoa
+<br clear="right"/>
+
+---
+
+>18. Inflation has taken over Poland and our movie shop has also suffered from this problem. Increase the **price** of all movies made after 2000 by **$2.50** (Remember that the dollar is the default unit).
+
+<img align="right" src="/assets/images/sql18.png" alt="screenshot with sorted table" width="498" height="223">
+
+```sql
+UPDATE movies
+SET price = (price + 2)
+WHERE year_of_production > 2000;
+```
+
+<br clear="right"/>
+
+---
+>19. Display the **name** and **surname** of the actor with **id 4**, and the **title** of the movie he starred in.
+
+<img align="right" src="/assets/images/sql19.png" alt="screenshot with sorted table" width="207" height="49">
+
+```sql
+SELECT
+    actors.name,
+    actors.surname,
+    movies.title
+FROM actors
+JOIN cast ON actors.actor_id = cast.actor_id
+JOIN movies ON cast.movie_id = movies.movie_id
+WHERE actors.actor_id = 4;
+```
+
+<br clear="right"/>
+
+---
+
+>20. Add a new customer to the customers table, where **customer_id = 7**, **name = Honia**, **surname = Stuczka-Kucharska**, **email = honia@mail.com** and **pseudonym = Hoa**
+
+<img align="right" src="/assets/images/sql20.png" alt="screenshot with sorted table" width="564" height="359">
+
+```sql
+INSERT INTO customers (customer_id, email, name, pseudonym, surname)
+VALUES ('7', 'honia@mail.com', 'Honia', 'Hoa', 'Stuczka-Kucharska');
+```
+
+<br clear="right"/>
 
 ## Subtask 2 - Quiz
 
@@ -604,4 +674,4 @@ INNER JOIN movies
 
 ## Subtask 3 - Portfolio
 
-[🔨 Protfolio](https://github.com/MarekSzmyt/portfolio)
+[🔨 Portfolio](https://github.com/MarekSzmyt/portfolio)
